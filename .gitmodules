@@ -1,0 +1,3 @@
+[submodule "libraries/electrified-kicad-library"]
+	path = libraries/electrified-kicad-library
+	url = https://github.com/electrified/kicad-library.git
