@@ -3569,42 +3569,28 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Oscillator:CXO_DIP8"
-			(pin_names
-				(offset 0.254)
-			)
+		(symbol "electrified:CXO_DIP-8-14"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Y"
-				(at -5.08 6.35 0)
+			(property "Reference" "U"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "CXO_DIP8"
-				(at 1.27 -6.35 0)
+			(property "Value" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "Oscillator:Oscillator_DIP-8"
-				(at 11.43 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/B400/OSZI.pdf"
-				(at -2.54 0 0)
+			(property "Footprint" "my:Oscillator_DIP-8-14"
+				(at 0 19.05 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3612,7 +3598,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Crystal Clock Oscillator, DIP8-style metal package"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -3621,7 +3607,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Crystal Clock Oscillator"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -3630,16 +3616,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Oscillator*DIP*8*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CXO_DIP8_0_1"
+			(symbol "CXO_DIP-8-14_0_1"
 				(rectangle
 					(start -5.08 5.08)
 					(end 5.08 -5.08)
@@ -3665,7 +3642,7 @@
 					)
 				)
 			)
-			(symbol "CXO_DIP8_1_1"
+			(symbol "CXO_DIP-8-14_1_1"
 				(pin input line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -3684,6 +3661,24 @@
 						)
 					)
 				)
+				(pin input line
+					(at -2.54 -7.62 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin power_in line
 					(at 0 7.62 270)
 					(length 2.54)
@@ -3694,7 +3689,7 @@
 							)
 						)
 					)
-					(number "8"
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3712,7 +3707,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3730,7 +3725,25 @@
 							)
 						)
 					)
-					(number "5"
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5055,6 +5068,18 @@
 		(uuid "42585ece-388e-49ff-9def-8cd4380d7bdb")
 	)
 	(junction
+		(at 124.46 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b30a95c-8a84-4c1b-b51f-47a260217339")
+	)
+	(junction
+		(at 116.84 205.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54dbc27c-94d2-4a60-b96f-f3a9023ef67d")
+	)
+	(junction
 		(at 278.13 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5297,6 +5322,16 @@
 			(type default)
 		)
 		(uuid "082d47ab-a453-4877-b1bd-652d50b1156a")
+	)
+	(wire
+		(pts
+			(xy 114.3 205.74) (xy 116.84 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0869d457-6646-474d-9452-a2407c9d623b")
 	)
 	(polyline
 		(pts
@@ -5807,6 +5842,16 @@
 			(type default)
 		)
 		(uuid "556daaeb-cb69-41bf-9c17-d9ed301b96ad")
+	)
+	(wire
+		(pts
+			(xy 124.46 198.12) (xy 124.46 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5657c0ba-e9d4-4941-9832-834ebb27b4cc")
 	)
 	(wire
 		(pts
@@ -8710,7 +8755,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Oscillator:CXO_DIP8")
+		(lib_id "electrified:CXO_DIP-8-14")
 		(at 116.84 198.12 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8736,8 +8781,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
-			(at 128.27 207.01 0)
+		(property "Footprint" "electrified:Oscillator_DIP-8-14"
+			(at 116.84 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8746,7 +8791,7 @@
 			)
 		)
 		(property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/B400/OSZI.pdf"
-			(at 114.3 198.12 0)
+			(at 116.84 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8769,11 +8814,17 @@
 		(pin "4"
 			(uuid "826d6252-5917-4b08-ac70-1c51169abf7d")
 		)
-		(pin "5"
+		(pin "11"
 			(uuid "41fb6d3d-31c5-4885-9a16-1a1a061e7af7")
 		)
 		(pin "8"
 			(uuid "ca4b0e12-10b9-4249-a961-aa54a5bf27ee")
+		)
+		(pin "7"
+			(uuid "4f1489fc-a866-4991-a828-f6be61dc8ae6")
+		)
+		(pin "14"
+			(uuid "f5f81e6e-a5c3-4119-8fc9-ec91614dd2b1")
 		)
 		(instances
 			(project ""
@@ -10347,46 +10398,46 @@
 			)
 		)
 		(pin "3"
-			(uuid "15584030-4e82-476b-869c-0042657ac7bc")
+			(uuid "15584030-4e82-476b-869c-0042657ac7bd")
 		)
 		(pin "14"
-			(uuid "15f906e2-279d-4ac0-9963-71bd055de756")
+			(uuid "15f906e2-279d-4ac0-9963-71bd055de757")
 		)
 		(pin "13"
-			(uuid "596d7417-12b2-43ba-bc7c-98fb0dc29d5b")
+			(uuid "596d7417-12b2-43ba-bc7c-98fb0dc29d5c")
 		)
 		(pin "5"
-			(uuid "f24dca4c-4a8e-40bc-b957-a2b91f542a86")
+			(uuid "f24dca4c-4a8e-40bc-b957-a2b91f542a87")
 		)
 		(pin "8"
-			(uuid "37671b3b-5fba-4f94-8a57-c7ebc02d8ad1")
+			(uuid "37671b3b-5fba-4f94-8a57-c7ebc02d8ad2")
 		)
 		(pin "2"
-			(uuid "1291ffaf-2dba-4f85-8992-40ff0e85b1cf")
+			(uuid "1291ffaf-2dba-4f85-8992-40ff0e85b1d0")
 		)
 		(pin "11"
-			(uuid "6c7e7bbb-dd81-4782-88ca-6cf595224231")
+			(uuid "6c7e7bbb-dd81-4782-88ca-6cf595224232")
 		)
 		(pin "1"
-			(uuid "b1497635-ca08-45e2-ac86-2713fb0d619e")
+			(uuid "b1497635-ca08-45e2-ac86-2713fb0d619f")
 		)
 		(pin "12"
-			(uuid "8c6186e4-1eba-4ea7-af06-33bf082af243")
+			(uuid "8c6186e4-1eba-4ea7-af06-33bf082af244")
 		)
 		(pin "9"
-			(uuid "4e983401-f5fb-431d-85f1-94c7a9073bba")
+			(uuid "4e983401-f5fb-431d-85f1-94c7a9073bbb")
 		)
 		(pin "10"
-			(uuid "3e9f1051-4df3-4dee-a033-b35daf14ae6f")
+			(uuid "3e9f1051-4df3-4dee-a033-b35daf14ae70")
 		)
 		(pin "4"
-			(uuid "bde25f57-591e-4f54-9ffd-35a2efb32f3e")
+			(uuid "bde25f57-591e-4f54-9ffd-35a2efb32f3f")
 		)
 		(pin "6"
-			(uuid "48fa4dd9-16e8-4d7f-96fc-b6f20086503b")
+			(uuid "48fa4dd9-16e8-4d7f-96fc-b6f20086503c")
 		)
 		(pin "7"
-			(uuid "a05d8cb3-b594-4765-bf4d-3fae84c74bb3")
+			(uuid "a05d8cb3-b594-4765-bf4d-3fae84c74bb4")
 		)
 		(instances
 			(project ""
@@ -11159,46 +11210,46 @@
 			)
 		)
 		(pin "3"
-			(uuid "15584030-4e82-476b-869c-0042657ac7bc")
+			(uuid "15584030-4e82-476b-869c-0042657ac7be")
 		)
 		(pin "14"
-			(uuid "15f906e2-279d-4ac0-9963-71bd055de756")
+			(uuid "15f906e2-279d-4ac0-9963-71bd055de758")
 		)
 		(pin "13"
-			(uuid "596d7417-12b2-43ba-bc7c-98fb0dc29d5b")
+			(uuid "596d7417-12b2-43ba-bc7c-98fb0dc29d5d")
 		)
 		(pin "5"
-			(uuid "f24dca4c-4a8e-40bc-b957-a2b91f542a86")
+			(uuid "f24dca4c-4a8e-40bc-b957-a2b91f542a88")
 		)
 		(pin "8"
-			(uuid "37671b3b-5fba-4f94-8a57-c7ebc02d8ad1")
+			(uuid "37671b3b-5fba-4f94-8a57-c7ebc02d8ad3")
 		)
 		(pin "2"
-			(uuid "1291ffaf-2dba-4f85-8992-40ff0e85b1cf")
+			(uuid "1291ffaf-2dba-4f85-8992-40ff0e85b1d1")
 		)
 		(pin "11"
-			(uuid "6c7e7bbb-dd81-4782-88ca-6cf595224231")
+			(uuid "6c7e7bbb-dd81-4782-88ca-6cf595224233")
 		)
 		(pin "1"
-			(uuid "b1497635-ca08-45e2-ac86-2713fb0d619e")
+			(uuid "b1497635-ca08-45e2-ac86-2713fb0d61a0")
 		)
 		(pin "12"
-			(uuid "8c6186e4-1eba-4ea7-af06-33bf082af243")
+			(uuid "8c6186e4-1eba-4ea7-af06-33bf082af245")
 		)
 		(pin "9"
-			(uuid "4e983401-f5fb-431d-85f1-94c7a9073bba")
+			(uuid "4e983401-f5fb-431d-85f1-94c7a9073bbc")
 		)
 		(pin "10"
-			(uuid "3e9f1051-4df3-4dee-a033-b35daf14ae6f")
+			(uuid "3e9f1051-4df3-4dee-a033-b35daf14ae71")
 		)
 		(pin "4"
-			(uuid "bde25f57-591e-4f54-9ffd-35a2efb32f3e")
+			(uuid "bde25f57-591e-4f54-9ffd-35a2efb32f40")
 		)
 		(pin "6"
-			(uuid "48fa4dd9-16e8-4d7f-96fc-b6f20086503b")
+			(uuid "48fa4dd9-16e8-4d7f-96fc-b6f20086503d")
 		)
 		(pin "7"
-			(uuid "a05d8cb3-b594-4765-bf4d-3fae84c74bb3")
+			(uuid "a05d8cb3-b594-4765-bf4d-3fae84c74bb5")
 		)
 		(instances
 			(project ""
@@ -11392,46 +11443,46 @@
 			)
 		)
 		(pin "3"
-			(uuid "15584030-4e82-476b-869c-0042657ac7bc")
+			(uuid "15584030-4e82-476b-869c-0042657ac7bf")
 		)
 		(pin "14"
-			(uuid "15f906e2-279d-4ac0-9963-71bd055de756")
+			(uuid "15f906e2-279d-4ac0-9963-71bd055de759")
 		)
 		(pin "13"
-			(uuid "596d7417-12b2-43ba-bc7c-98fb0dc29d5b")
+			(uuid "596d7417-12b2-43ba-bc7c-98fb0dc29d5e")
 		)
 		(pin "5"
-			(uuid "f24dca4c-4a8e-40bc-b957-a2b91f542a86")
+			(uuid "f24dca4c-4a8e-40bc-b957-a2b91f542a89")
 		)
 		(pin "8"
-			(uuid "37671b3b-5fba-4f94-8a57-c7ebc02d8ad1")
+			(uuid "37671b3b-5fba-4f94-8a57-c7ebc02d8ad4")
 		)
 		(pin "2"
-			(uuid "1291ffaf-2dba-4f85-8992-40ff0e85b1cf")
+			(uuid "1291ffaf-2dba-4f85-8992-40ff0e85b1d2")
 		)
 		(pin "11"
-			(uuid "6c7e7bbb-dd81-4782-88ca-6cf595224231")
+			(uuid "6c7e7bbb-dd81-4782-88ca-6cf595224234")
 		)
 		(pin "1"
-			(uuid "b1497635-ca08-45e2-ac86-2713fb0d619e")
+			(uuid "b1497635-ca08-45e2-ac86-2713fb0d61a1")
 		)
 		(pin "12"
-			(uuid "8c6186e4-1eba-4ea7-af06-33bf082af243")
+			(uuid "8c6186e4-1eba-4ea7-af06-33bf082af246")
 		)
 		(pin "9"
-			(uuid "4e983401-f5fb-431d-85f1-94c7a9073bba")
+			(uuid "4e983401-f5fb-431d-85f1-94c7a9073bbd")
 		)
 		(pin "10"
-			(uuid "3e9f1051-4df3-4dee-a033-b35daf14ae6f")
+			(uuid "3e9f1051-4df3-4dee-a033-b35daf14ae72")
 		)
 		(pin "4"
-			(uuid "bde25f57-591e-4f54-9ffd-35a2efb32f3e")
+			(uuid "bde25f57-591e-4f54-9ffd-35a2efb32f41")
 		)
 		(pin "6"
-			(uuid "48fa4dd9-16e8-4d7f-96fc-b6f20086503b")
+			(uuid "48fa4dd9-16e8-4d7f-96fc-b6f20086503e")
 		)
 		(pin "7"
-			(uuid "a05d8cb3-b594-4765-bf4d-3fae84c74bb3")
+			(uuid "a05d8cb3-b594-4765-bf4d-3fae84c74bb6")
 		)
 		(instances
 			(project ""
@@ -11561,46 +11612,46 @@
 			)
 		)
 		(pin "3"
-			(uuid "15584030-4e82-476b-869c-0042657ac7bc")
+			(uuid "15584030-4e82-476b-869c-0042657ac7c0")
 		)
 		(pin "14"
-			(uuid "15f906e2-279d-4ac0-9963-71bd055de756")
+			(uuid "15f906e2-279d-4ac0-9963-71bd055de75a")
 		)
 		(pin "13"
-			(uuid "596d7417-12b2-43ba-bc7c-98fb0dc29d5b")
+			(uuid "596d7417-12b2-43ba-bc7c-98fb0dc29d5f")
 		)
 		(pin "5"
-			(uuid "f24dca4c-4a8e-40bc-b957-a2b91f542a86")
+			(uuid "f24dca4c-4a8e-40bc-b957-a2b91f542a8a")
 		)
 		(pin "8"
-			(uuid "37671b3b-5fba-4f94-8a57-c7ebc02d8ad1")
+			(uuid "37671b3b-5fba-4f94-8a57-c7ebc02d8ad5")
 		)
 		(pin "2"
-			(uuid "1291ffaf-2dba-4f85-8992-40ff0e85b1cf")
+			(uuid "1291ffaf-2dba-4f85-8992-40ff0e85b1d3")
 		)
 		(pin "11"
-			(uuid "6c7e7bbb-dd81-4782-88ca-6cf595224231")
+			(uuid "6c7e7bbb-dd81-4782-88ca-6cf595224235")
 		)
 		(pin "1"
-			(uuid "b1497635-ca08-45e2-ac86-2713fb0d619e")
+			(uuid "b1497635-ca08-45e2-ac86-2713fb0d61a2")
 		)
 		(pin "12"
-			(uuid "8c6186e4-1eba-4ea7-af06-33bf082af243")
+			(uuid "8c6186e4-1eba-4ea7-af06-33bf082af247")
 		)
 		(pin "9"
-			(uuid "4e983401-f5fb-431d-85f1-94c7a9073bba")
+			(uuid "4e983401-f5fb-431d-85f1-94c7a9073bbe")
 		)
 		(pin "10"
-			(uuid "3e9f1051-4df3-4dee-a033-b35daf14ae6f")
+			(uuid "3e9f1051-4df3-4dee-a033-b35daf14ae73")
 		)
 		(pin "4"
-			(uuid "bde25f57-591e-4f54-9ffd-35a2efb32f3e")
+			(uuid "bde25f57-591e-4f54-9ffd-35a2efb32f42")
 		)
 		(pin "6"
-			(uuid "48fa4dd9-16e8-4d7f-96fc-b6f20086503b")
+			(uuid "48fa4dd9-16e8-4d7f-96fc-b6f20086503f")
 		)
 		(pin "7"
-			(uuid "a05d8cb3-b594-4765-bf4d-3fae84c74bb3")
+			(uuid "a05d8cb3-b594-4765-bf4d-3fae84c74bb7")
 		)
 		(instances
 			(project ""
