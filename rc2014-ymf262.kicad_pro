@@ -52,7 +52,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
@@ -190,6 +196,7 @@
       ],
       "track_widths": [
         0.0,
+        0.19,
         0.381,
         0.635
       ],
@@ -219,7 +226,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
@@ -591,7 +603,7 @@
       "netlist": "rc2014-ym2149.net",
       "plot": "",
       "pos_files": "",
-      "specctra_dsn": "",
+      "specctra_dsn": "rc2014-ymf262.dsn",
       "step": "",
       "svg": "",
       "vrml": ""
