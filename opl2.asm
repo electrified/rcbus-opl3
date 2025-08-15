@@ -5,6 +5,8 @@
 OPL_ADDR:       .equ $90
 OPL_DATA:       .equ $91
 
+    jp start
+    
 ; === WriteReg: Write C to OPL Reg B ===
 WriteReg:
     ld a, b
