@@ -472,11 +472,13 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "electrified"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "rc2014-ymf262.kicad_pro",
+    "filename": "rcbus-ymf262.kicad_pro",
     "version": 3
   },
   "net_settings": {
