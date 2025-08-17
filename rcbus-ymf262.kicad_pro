@@ -505,7 +505,6 @@
         "bus_width": 12,
         "clearance": 0.254,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.762,
@@ -523,7 +522,6 @@
         "bus_width": 12,
         "clearance": 0.254,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.762,
@@ -541,7 +539,6 @@
         "bus_width": 12,
         "clearance": 0.254,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.762,
@@ -559,7 +556,6 @@
         "bus_width": 12,
         "clearance": 0.254,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.762,
@@ -579,24 +575,7 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "gnd",
-        "pattern": "GND"
-      },
-      {
-        "netclass": "gnd",
-        "pattern": "VSS"
-      },
-      {
-        "netclass": "vcc",
-        "pattern": "VCC"
-      },
-      {
-        "netclass": "vcc",
-        "pattern": "VDD"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
