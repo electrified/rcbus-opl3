@@ -27,6 +27,7 @@ jobs:
       with:
         # So we can run a diff between last 2 changes
         fetch-depth: '0'
+        submodules: recursive
 
     - name: Quick Start
       run: |
