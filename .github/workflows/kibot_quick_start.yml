@@ -1,4 +1,4 @@
-name: "Variants demo using --quick-start"
+name: "RCBus YMF-262 build"
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
@@ -28,7 +28,12 @@ jobs:
         # So we can run a diff between last 2 changes
         fetch-depth: '0'
         submodules: recursive
-
+    - name: Get next version
+      uses: reecetech/version-increment@2024.10.1
+      id: version
+      with:
+        scheme: semver
+        increment: patch
     - name: Quick Start
       run: |
         kibot --quick-start

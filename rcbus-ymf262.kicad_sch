@@ -11018,7 +11018,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "Device:C_Polarized_Small")
 		(at 262.89 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11062,7 +11062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "Polarized capacitor, small symbol"
 			(at 262.89 80.01 0)
 			(effects
 				(font
