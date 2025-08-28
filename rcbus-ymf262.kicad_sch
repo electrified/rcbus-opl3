@@ -6,9 +6,10 @@
 	(paper "A3")
 	(title_block
 		(title "RCBUS YMF262 sound card")
-		(date "@date@")
-		(rev "@version@")
+		(date "${DATE}")
+		(rev "${VERSION}")
 		(comment 1 "these are the things that dreams are made of")
+		(comment 2 "${GIT_HASH}")
 	)
 	(lib_symbols
 		(symbol "74xx:74HCT688"

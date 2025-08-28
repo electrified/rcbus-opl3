@@ -18,7 +18,7 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  quick:
+  build:
     runs-on: ubuntu-latest
     container: ghcr.io/inti-cmnb/kicad9_auto_full:latest
 
@@ -34,6 +34,9 @@ jobs:
       with:
         scheme: semver
         increment: patch
+    - name: Save info in environment variables
+      run: |
+        echo "VERSION=${{ steps.version.outputs.version }}" >> $GITHUB_ENV
     - name: Quick Start
       run: |
         kibot --quick-start
@@ -47,7 +50,7 @@ jobs:
   # This step is to upload the results to another repo (web pages)
   deploy:
     runs-on: ubuntu-latest
-    needs: quick
+    needs: build
 
     steps:
     - uses: actions/checkout@v4

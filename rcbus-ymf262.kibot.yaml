@@ -38,13 +38,8 @@ preflight:
     # We use `${date}` for the time field in the worksheet (frame)
     - name: 'date'
       command: 'date --iso-8601=minutes'
-    - variable: "version"
-      command: "echo $VERSION" 
-
-variants:
-  - name: 'default'
-    comment: 'Standard PCB'
-    type: kibom
+    - name: 'version'
+      command: 'echo $VERSION'
 
 outputs:
   - name: 'bom_xlsx'
@@ -93,9 +88,9 @@ outputs:
     comment: "Schematic PDF"
     type: pdf_sch_print
     dir: Schematic
-    options:
-      # Append the variant to the title
-      title: "+ (%V variant)"
+    # options:
+    #   # Append the variant to the title
+    #   title: "+ (%V variant)"
 
   - name: gerbers
     comment: Gerbers
@@ -138,7 +133,7 @@ outputs:
       force_edge_cuts: true
       keep_temporal_files: true
       # Append the variant to the title
-      title: "+ (%V variant)"
+      # title: "+ (%V variant)"
       # This is the worksheet we selected in the project, no need to specify it again
       # sheet_reference_layout: pcb_print.kicad_wks
       scaling: 2.0
