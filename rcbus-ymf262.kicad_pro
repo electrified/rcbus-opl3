@@ -562,7 +562,7 @@
         "microvia_diameter": 0.762,
         "microvia_drill": 0.508,
         "name": "vcc",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(126, 255, 0)",
         "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.762,

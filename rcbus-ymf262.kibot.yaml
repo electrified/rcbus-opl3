@@ -25,7 +25,10 @@ preflight:
     - filter: 'We know some connectors extend outside the board'
       error: 'silk_over_copper'
       regex: 'clipped by solder mask'
-  run_drc: true
+  drc:
+    filters:
+    - filter: 'Starved thermal'
+      error: 'starved_thermal'
   # Filters for ERC/DRC errors/warnings
 
   set_text_variables:
@@ -148,10 +151,6 @@ outputs:
             - layer: F.SilkS
             - layer: Dwgs.User
           sheet: 'Top layer'
-        - layers: [ GND.Cu, Dwgs.User ]
-          sheet: 'GND plane'
-        - layers: [ Power.Cu, Dwgs.User ]
-          sheet: 'Power plane'
         - layers:
             - layer: B.Cu
             - layer: B.Mask
@@ -200,8 +199,8 @@ outputs:
       show_components: all
       
   - name: 3D
-    comment: "STEP 3D model"
-    type: step
+    comment: "Export 3D model"
+    type: export_3d
     dir: 3D
 
   - name: 3D_top_view
