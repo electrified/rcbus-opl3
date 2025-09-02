@@ -11,26 +11,15 @@ global:
   - number: 107
 
 import:
-# - file: Elecrow
-#   definitions:
-#     _KIBOT_MANF_DIR: Manufacturers/Elecrow
-# - file: ExportProject
-# - file: FusionPCB
-#   definitions:
-#     _KIBOT_MANF_DIR: Manufacturers/FusionPCB
 - file: JLCPCB
   definitions:
     _KIBOT_MANF_DIR: Manufacturers/JLCPCB
     _KIBOT_POS_PRE_TRANSFORM: '[''_kicost_rename'', ''_rot_footprint'']'
     _KIBOT_BOM_ENABLED: 'false'
-# - file: MacroFab_XYRS
-#   definitions:
-#     _KIBOT_MPN_FIELD: '- field: manf#'
 - file: PCB2Blender_2_1
 - file: PCBWay
   definitions:
     _KIBOT_MANF_DIR: Manufacturers/PCBWay
-# - file: PanelDemo_4x4
 
 preflight:
   drc:
@@ -69,10 +58,6 @@ outputs:
       rotate_z: -20
       file_id: _30deg
     - view: bottom
-- name: basic_boardview
-  comment: Board View export
-  type: boardview
-  dir: Assembly
 - name: generic_bom_html
   comment: Generic Bill of Materials in HTML format
   type: bom
@@ -99,32 +84,6 @@ outputs:
     format: CSV
     group_fields: *id001
     count_smd_tht: true
-# - name: generic_bom_hrtxt
-#   comment: Generic Bill of Materials in HRTXT format
-#   type: bom
-#   dir: BoM/Generic
-#   options:
-#     format: HRTXT
-#     hrtxt:
-#       separator: '|'
-#     group_fields: *id001
-#     count_smd_tht: true
-# - name: generic_bom_tsv
-#   comment: Generic Bill of Materials in TSV format
-#   type: bom
-#   dir: BoM/Generic
-#   options:
-#     format: TSV
-#     group_fields: *id001
-#     count_smd_tht: true
-# - name: generic_bom_xml
-#   comment: Generic Bill of Materials in XML format
-#   type: bom
-#   dir: BoM/Generic
-#   options:
-#     format: XML
-#     group_fields: *id001
-#     count_smd_tht: true
 - name: generic_bom_xlsx
   comment: Generic Bill of Materials in XLSX format
   type: bom
@@ -287,91 +246,6 @@ outputs:
   comment: Download the datasheets
   type: download_datasheets
   dir: Datasheets
-# - name: basic_dxf
-#   comment: Individual layers in DXF format
-#   type: dxf
-#   dir: Individual_Layers/DXF
-#   layers:
-#   - layer: Front
-#     suffix: Front
-#     description: No description
-#   - layer: F.Mask
-#     suffix: F_Mask
-#     description: Front soldermask (negative)
-#   - layer: Back
-#     suffix: Back
-#     description: No description
-#   - layer: B.Mask
-#     suffix: B_Mask
-#     description: Bottom soldermask (negative)
-#   - layer: F.Silkscreen
-#     suffix: F_Silkscreen
-#     description: Front silkscreen (artwork)
-#   - layer: B.Silkscreen
-#     suffix: B_Silkscreen
-#     description: Bottom silkscreen (artwork)
-#   - layer: F.Paste
-#     suffix: F_Paste
-#     description: Front solder paste
-#   - layer: User.Drawings
-#     suffix: User_Drawings
-#     description: User drawings
-#   - layer: User.Comments
-#     suffix: User_Comments
-#     description: User comments
-#   - layer: Edge.Cuts
-#     suffix: Edge_Cuts
-#     description: Board shape
-#   - layer: F.Courtyard
-#     suffix: F_Courtyard
-#     description: Front courtyard area
-#   - layer: F.Fab
-#     suffix: F_Fab
-#     description: Front documentation
-# - name: basic_dxf_sch_print
-#   comment: Schematic in DXF format
-#   type: dxf_sch_print
-#   dir: Schematic
-# - name: basic_excellon
-#   comment: Drill files in EXCELLON format
-#   type: excellon
-#   dir: Gerbers_and_Drill
-#   options:
-#     map: pdf
-# - name: basic_export_3d_step
-#   comment: 3D model in STEP format
-#   type: export_3d
-#   dir: 3D
-#   options:
-#     format: step
-# - name: basic_export_3d_glb
-#   comment: 3D model in GLB format
-#   type: export_3d
-#   dir: 3D
-#   options:
-#     format: glb
-# - name: basic_export_3d_stl
-#   comment: 3D model in STL format
-#   type: export_3d
-#   dir: 3D
-#   options:
-#     format: stl
-# - name: basic_export_3d_xao
-#   comment: 3D model in XAO format
-#   type: export_3d
-#   dir: 3D
-#   options:
-#     format: xao
-# - name: basic_export_3d_brep
-#   comment: 3D model in BREP format
-#   type: export_3d
-#   dir: 3D
-#   options:
-#     format: brep
-# - name: basic_gencad
-#   comment: PCB in GenCAD format
-#   type: gencad
-#   dir: Export
 - name: basic_gerb_drill
   comment: Drill files in GERB_DRILL format
   type: gerb_drill
@@ -419,51 +293,6 @@ outputs:
   - layer: F.Fab
     suffix: F_Fab
     description: Front documentation
-# - name: basic_hpgl
-#   comment: Individual layers in HPGL format
-#   type: hpgl
-#   dir: Individual_Layers/HPGL
-#   layers:
-#   - layer: Front
-#     suffix: Front
-#     description: No description
-#   - layer: F.Mask
-#     suffix: F_Mask
-#     description: Front soldermask (negative)
-#   - layer: Back
-#     suffix: Back
-#     description: No description
-#   - layer: B.Mask
-#     suffix: B_Mask
-#     description: Bottom soldermask (negative)
-#   - layer: F.Silkscreen
-#     suffix: F_Silkscreen
-#     description: Front silkscreen (artwork)
-#   - layer: B.Silkscreen
-#     suffix: B_Silkscreen
-#     description: Bottom silkscreen (artwork)
-#   - layer: F.Paste
-#     suffix: F_Paste
-#     description: Front solder paste
-#   - layer: User.Drawings
-#     suffix: User_Drawings
-#     description: User drawings
-#   - layer: User.Comments
-#     suffix: User_Comments
-#     description: User comments
-#   - layer: Edge.Cuts
-#     suffix: Edge_Cuts
-#     description: Board shape
-#   - layer: F.Courtyard
-#     suffix: F_Courtyard
-#     description: Front courtyard area
-#   - layer: F.Fab
-#     suffix: F_Fab
-#     description: Front documentation
-# - name: basic_hpgl_sch_print
-#   comment: Schematic in HPGL format
-#   type: hpgl_sch_print
-#   dir: Schematic
 - name: basic_ibom
   comment: Interactive HTML BoM
   type: ibom
@@ -627,61 +456,6 @@ outputs:
       - layer: Edge.Cuts
         color: '#000000'
     keep_temporal_files: true
-# - name: basic_pcb_print_svg
-#   comment: PCB
-#   type: pcb_print
-#   dir: PCB/SVG
-#   options:
-#     format: SVG
-#     pages:
-#     - layers:
-#       - layer: F.Cu
-#       - layer: F.Mask
-#         color: '#14332440'
-#       - layer: F.Paste
-#       - layer: F.Silkscreen
-#       - layer: Edge.Cuts
-#       - layer: User.Drawings
-#       - layer: User.Comments
-#       sheet: No description
-#     - layers:
-#       - layer: F.Mask
-#         color: '#14332440'
-#       - layer: Edge.Cuts
-#       - layer: User.Drawings
-#       - layer: User.Comments
-#       sheet: Front soldermask (negative)
-#     - layers:
-#       - layer: B.Cu
-#       - layer: B.Mask
-#         color: '#14332440'
-#       - layer: B.Silkscreen
-#       - layer: Edge.Cuts
-#       - layer: User.Drawings
-#       - layer: User.Comments
-#       mirror: true
-#       sheet: No description
-#     - layers:
-#       - layer: F.Courtyard
-#       - layer: Edge.Cuts
-#       - layer: User.Drawings
-#       - layer: User.Comments
-#       sheet: Front courtyard area
-#     - layers:
-#       - layer: F.Fab
-#       - layer: Edge.Cuts
-#       - layer: User.Drawings
-#       - layer: User.Comments
-#       sheet: Front documentation
-#     - repeat_for_layer: User.Drawings
-#       repeat_layers: drill_pairs
-#       layers:
-#       - layer: User.Drawings
-#         color: '#000000'
-#       - layer: Edge.Cuts
-#         color: '#000000'
-#     keep_temporal_files: true
-#     add_background: true
 - name: basic_pcb_print_png
   comment: PCB
   type: pcb_print
@@ -737,114 +511,6 @@ outputs:
         color: '#000000'
     keep_temporal_files: true
     add_background: true
-# - name: basic_pcb_print_eps
-#   comment: PCB
-#   type: pcb_print
-#   dir: PCB/EPS
-#   options:
-#     format: EPS
-#     pages:
-#     - layers:
-#       - layer: F.Cu
-#       - layer: F.Mask
-#         color: '#14332440'
-#       - layer: F.Paste
-#       - layer: F.Silkscreen
-#       - layer: Edge.Cuts
-#       - layer: User.Drawings
-#       - layer: User.Comments
-#       sheet: No description
-#     - layers:
-#       - layer: F.Mask
-#         color: '#14332440'
-#       - layer: Edge.Cuts
-#       - layer: User.Drawings
-#       - layer: User.Comments
-#       sheet: Front soldermask (negative)
-#     - layers:
-#       - layer: B.Cu
-#       - layer: B.Mask
-#         color: '#14332440'
-#       - layer: B.Silkscreen
-#       - layer: Edge.Cuts
-#       - layer: User.Drawings
-#       - layer: User.Comments
-#       mirror: true
-#       sheet: No description
-#     - layers:
-#       - layer: F.Courtyard
-#       - layer: Edge.Cuts
-#       - layer: User.Drawings
-#       - layer: User.Comments
-#       sheet: Front courtyard area
-#     - layers:
-#       - layer: F.Fab
-#       - layer: Edge.Cuts
-#       - layer: User.Drawings
-#       - layer: User.Comments
-#       sheet: Front documentation
-#     - repeat_for_layer: User.Drawings
-#       repeat_layers: drill_pairs
-#       layers:
-#       - layer: User.Drawings
-#         color: '#000000'
-#       - layer: Edge.Cuts
-#         color: '#000000'
-#     keep_temporal_files: true
-# - name: basic_pcb_print_ps
-#   comment: PCB
-#   type: pcb_print
-#   dir: PCB/PS
-#   options:
-#     format: PS
-#     pages:
-#     - layers:
-#       - layer: F.Cu
-#       - layer: F.Mask
-#         color: '#14332440'
-#       - layer: F.Paste
-#       - layer: F.Silkscreen
-#       - layer: Edge.Cuts
-#       - layer: User.Drawings
-#       - layer: User.Comments
-#       sheet: No description
-#     - layers:
-#       - layer: F.Mask
-#         color: '#14332440'
-#       - layer: Edge.Cuts
-#       - layer: User.Drawings
-#       - layer: User.Comments
-#       sheet: Front soldermask (negative)
-#     - layers:
-#       - layer: B.Cu
-#       - layer: B.Mask
-#         color: '#14332440'
-#       - layer: B.Silkscreen
-#       - layer: Edge.Cuts
-#       - layer: User.Drawings
-#       - layer: User.Comments
-#       mirror: true
-#       sheet: No description
-#     - layers:
-#       - layer: F.Courtyard
-#       - layer: Edge.Cuts
-#       - layer: User.Drawings
-#       - layer: User.Comments
-#       sheet: Front courtyard area
-#     - layers:
-#       - layer: F.Fab
-#       - layer: Edge.Cuts
-#       - layer: User.Drawings
-#       - layer: User.Comments
-#       sheet: Front documentation
-#     - repeat_for_layer: User.Drawings
-#       repeat_layers: drill_pairs
-#       layers:
-#       - layer: User.Drawings
-#         color: '#000000'
-#       - layer: Edge.Cuts
-#         color: '#000000'
-#     keep_temporal_files: true
 - name: basic_pcbdraw_svg_jlcpcb_green_enig_top
   comment: PCB 2D render in SVG format, using jlcpcb-green-enig style
   type: pcbdraw
@@ -1041,51 +707,6 @@ outputs:
     format: CSV
     only_smd: false
     separate_files_for_front_and_back: false
-# - name: basic_ps
-#   comment: Individual layers in PS format
-#   type: ps
-#   dir: Individual_Layers/PS
-#   layers:
-#   - layer: Front
-#     suffix: Front
-#     description: No description
-#   - layer: F.Mask
-#     suffix: F_Mask
-#     description: Front soldermask (negative)
-#   - layer: Back
-#     suffix: Back
-#     description: No description
-#   - layer: B.Mask
-#     suffix: B_Mask
-#     description: Bottom soldermask (negative)
-#   - layer: F.Silkscreen
-#     suffix: F_Silkscreen
-#     description: Front silkscreen (artwork)
-#   - layer: B.Silkscreen
-#     suffix: B_Silkscreen
-#     description: Bottom silkscreen (artwork)
-#   - layer: F.Paste
-#     suffix: F_Paste
-#     description: Front solder paste
-#   - layer: User.Drawings
-#     suffix: User_Drawings
-#     description: User drawings
-#   - layer: User.Comments
-#     suffix: User_Comments
-#     description: User comments
-#   - layer: Edge.Cuts
-#     suffix: Edge_Cuts
-#     description: Board shape
-#   - layer: F.Courtyard
-#     suffix: F_Courtyard
-#     description: Front courtyard area
-#   - layer: F.Fab
-#     suffix: F_Fab
-#     description: Front documentation
-# - name: basic_ps_sch_print
-#   comment: Schematic in PS format
-#   type: ps_sch_print
-#   dir: Schematic
 - name: basic_qr_lib_example
   comment: QR code symbol and footprint example
   type: qr_lib
@@ -1136,66 +757,6 @@ outputs:
   options:
     template: full_SVG
     do_convert: true
-# - name: basic_stencil_3d
-#   comment: 3D self-registering stencil
-#   type: stencil_3d
-#   dir: Assembly
-# - name: basic_stencil_for_jig
-#   comment: Steel stencil for alignment jig
-#   type: stencil_for_jig
-#   dir: Assembly
-#   options:
-#     jigwidth: 150
-#     jigheight: 100
-# - name: basic_svg
-#   comment: Individual layers in SVG format
-#   type: svg
-#   dir: Individual_Layers/SVG
-#   layers:
-#   - layer: Front
-#     suffix: Front
-#     description: No description
-#   - layer: F.Mask
-#     suffix: F_Mask
-#     description: Front soldermask (negative)
-#   - layer: Back
-#     suffix: Back
-#     description: No description
-#   - layer: B.Mask
-#     suffix: B_Mask
-#     description: Bottom soldermask (negative)
-#   - layer: F.Silkscreen
-#     suffix: F_Silkscreen
-#     description: Front silkscreen (artwork)
-#   - layer: B.Silkscreen
-#     suffix: B_Silkscreen
-#     description: Bottom silkscreen (artwork)
-#   - layer: F.Paste
-#     suffix: F_Paste
-#     description: Front solder paste
-#   - layer: User.Drawings
-#     suffix: User_Drawings
-#     description: User drawings
-#   - layer: User.Comments
-#     suffix: User_Comments
-#     description: User comments
-#   - layer: Edge.Cuts
-#     suffix: Edge_Cuts
-#     description: Board shape
-#   - layer: F.Courtyard
-#     suffix: F_Courtyard
-#     description: Front courtyard area
-#   - layer: F.Fab
-#     suffix: F_Fab
-#     description: Front documentation
-# - name: basic_svg_sch_print
-#   comment: Schematic in SVG format
-#   type: svg_sch_print
-#   dir: Schematic
-# - name: basic_vrml
-#   comment: PCB in VRML format
-#   type: vrml
-#   dir: 3D
 
 ...
 definitions:
