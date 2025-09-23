@@ -17,6 +17,7 @@ on:
       - '.github/workflows/kibot.yml'
   repository_dispatch:
     types: [run_qs]
+  workflow_dispatch:
 
 jobs:
   build:
