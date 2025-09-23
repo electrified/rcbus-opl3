@@ -5,7 +5,7 @@
 	(uuid "9a2d648d-863a-4b7b-80f9-d537185c212b")
 	(paper "A3")
 	(title_block
-		(title "RCBUS YMF262 sound card")
+		(title "RCBUS OPL3 sound card")
 		(date "${DATE}")
 		(rev "${VERSION}")
 		(comment 1 "these are the things that dreams are made of")

@@ -70,5 +70,5 @@ jobs:
       with:
         branch: main
         folder: Generated
-        repository-name: electrified/rcbus-ymf262-site
+        repository-name: electrified/rcbus-opl3-site
         token: ${{ secrets.TOKEN }}
