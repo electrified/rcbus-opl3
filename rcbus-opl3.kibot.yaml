@@ -398,10 +398,6 @@ outputs:
   dir: Export
   options:
     format: ipc
-- name: basic_odb
-  comment: PCB in ODB++ format
-  type: odb
-  dir: Export
 - name: basic_pcb_print_pdf
   comment: PCB
   type: pcb_print
@@ -553,27 +549,6 @@ outputs:
   options:
     style: set-blue-enig
     format: jpg
-- name: basic_pcbdraw_svg_set_red_hasl_top
-  comment: PCB 2D render in SVG format, using set-red-hasl style
-  type: pcbdraw
-  dir: PCB/2D_render/set_red_hasl
-  options:
-    style: set-red-hasl
-    format: svg
-- name: basic_pcbdraw_png_set_red_hasl_top
-  comment: PCB 2D render in PNG format, using set-red-hasl style
-  type: pcbdraw
-  dir: PCB/2D_render/set_red_hasl
-  options:
-    style: set-red-hasl
-    format: png
-- name: basic_pcbdraw_jpg_set_red_hasl_top
-  comment: PCB 2D render in JPG format, using set-red-hasl style
-  type: pcbdraw
-  dir: PCB/2D_render/set_red_hasl
-  options:
-    style: set-red-hasl
-    format: jpg
 - name: basic_pcbdraw_svg_jlcpcb_green_enig_bottom
   comment: PCB 2D render in SVG format, using jlcpcb-green-enig style
   type: pcbdraw
@@ -620,30 +595,6 @@ outputs:
   dir: PCB/2D_render/set_blue_enig
   options:
     style: set-blue-enig
-    format: jpg
-    bottom: true
-- name: basic_pcbdraw_svg_set_red_hasl_bottom
-  comment: PCB 2D render in SVG format, using set-red-hasl style
-  type: pcbdraw
-  dir: PCB/2D_render/set_red_hasl
-  options:
-    style: set-red-hasl
-    format: svg
-    bottom: true
-- name: basic_pcbdraw_png_set_red_hasl_bottom
-  comment: PCB 2D render in PNG format, using set-red-hasl style
-  type: pcbdraw
-  dir: PCB/2D_render/set_red_hasl
-  options:
-    style: set-red-hasl
-    format: png
-    bottom: true
-- name: basic_pcbdraw_jpg_set_red_hasl_bottom
-  comment: PCB 2D render in JPG format, using set-red-hasl style
-  type: pcbdraw
-  dir: PCB/2D_render/set_red_hasl
-  options:
-    style: set-red-hasl
     format: jpg
     bottom: true
 - name: basic_pdf
@@ -720,30 +671,6 @@ outputs:
       name: QR_kibot
       text: https://github.com/INTI-CMNB/KiBot/
     use_sch_dir: false
-- name: basic_render_3d_top
-  comment: 3D view from top
-  type: render_3d
-  dir: 3D
-  options:
-    ray_tracing: true
-    orthographic: true
-- name: basic_render_3d_30deg
-  comment: 3D view from 30 degrees
-  type: render_3d
-  dir: 3D
-  output_id: 30deg
-  options:
-    ray_tracing: true
-    rotate_x: 3
-    rotate_z: -2
-- name: basic_render_3d_bottom
-  comment: 3D view from bottom
-  type: render_3d
-  dir: 3D
-  options:
-    ray_tracing: true
-    orthographic: true
-    view: bottom
 - name: report_simple
   comment: Simple design report
   type: report
