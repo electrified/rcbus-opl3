@@ -592,7 +592,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "rc2014-ym2149.net",
-      "plot": "",
+      "plot": "gerbers/",
       "pos_files": "",
       "specctra_dsn": "rc2014-ymf262.dsn",
       "step": "",
