@@ -41,6 +41,14 @@ jobs:
       uses: INTI-CMNB/KiBot@v2_k9
       with:
         dir: Generated
+    - name: Upload release files
+      uses: softprops/action-gh-release@v2
+      # if: startsWith(github.ref, 'refs/tags/')
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        files: |
+          Generated/**
     - name: Retrieve results
       uses: actions/upload-artifact@v4
       with:
