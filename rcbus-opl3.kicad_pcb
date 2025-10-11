@@ -632,103 +632,12 @@
 				)
 			)
 		)
-		(property "Digi-Key_PN" "CP1-3523N-ND"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "caf066f6-8914-4099-a916-f64b9cc6bbcd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MPN" "SJ1-3523N"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d9d3ba1a-6d3c-4449-89d3-b0852cd181ba")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Category" "Connectors, Interconnects"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b64e7687-e9f2-40e7-9ad3-69fcbe288861")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Family" "Barrel - Audio Connectors"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "caf8e349-fd0c-4178-82a3-5c8778a7f898")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "DK_Datasheet_Link" "https://www.cui.com/product/resource/digikeypdf/sj1-352xn_series.pdf"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e73bb5a3-ffd8-4ebc-8f12-bbde1e0d3a17")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "DK_Detail_Page" "/product-detail/en/cui-inc/SJ1-3523N/CP1-3523N-ND/738689"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c3c3d397-6bea-42c6-90e2-b6331750d1cd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "CUI Inc."
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bc9f504e-468a-4e59-8397-f455f39a54b8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Status" "Active"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2434f230-a88a-4bf3-9fbb-fea97ad393d7")
+			(uuid "a1ba2f63-b5f2-42e3-bed4-4ad0a1abff03")
 			(effects
 				(font
 					(size 1 1)
@@ -749,7 +658,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "11454d64-fd5d-485b-ab53-d1026114aeba")
+			(uuid "9684e5de-3476-4fd5-86b1-933a10d855dc")
 		)
 		(fp_line
 			(start 2.8 -6.1)
@@ -759,7 +668,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "c2a7ea7a-84dd-423f-a974-276d2daf0d7c")
+			(uuid "110b90f7-fbfa-4a50-b5ab-f84908b94107")
 		)
 		(fp_line
 			(start 2.2 6.1)
@@ -769,7 +678,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "523e87df-bbd6-4ec6-8903-3cdecd0910b4")
+			(uuid "77c1b518-0325-4c09-980f-bd2da7d7f466")
 		)
 		(fp_line
 			(start 2.2 -6.1)
@@ -779,7 +688,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "00eb6b15-8ea4-4458-80f0-cbf7a5af9761")
+			(uuid "860b2aa2-537e-4229-8512-eadab1d80a39")
 		)
 		(fp_line
 			(start 3.25 -6.25)
@@ -789,7 +698,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "d15afad5-8043-45fd-8388-90b46874c16d")
+			(uuid "e632588c-c181-40e8-ba9a-ce835d6328ec")
 		)
 		(fp_line
 			(start -11.75 6.25)
@@ -799,7 +708,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "405537eb-060e-48e1-9049-199f871d0824")
+			(uuid "46d61dc7-7a33-4dc9-a7d8-f6bd36bffc83")
 		)
 		(fp_line
 			(start -11.75 -6.25)
@@ -809,7 +718,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "91a62edc-6782-4fe8-8222-5354fdf5926b")
+			(uuid "56ef0cbc-56ce-4816-afed-697f1112c859")
 		)
 		(fp_line
 			(start -11.75 -6.25)
@@ -819,7 +728,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "c9785d3d-dd87-4b57-8394-3c9e740fd5e0")
+			(uuid "f856bf60-d835-426c-ab08-2ce1018a6386")
 		)
 		(fp_line
 			(start 2.7 -6)
@@ -829,7 +738,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "86376eb2-0e6d-4be6-918b-333cc1908e76")
+			(uuid "1155b412-a540-449b-8d98-6f28f0fc69e6")
 		)
 		(fp_line
 			(start -10.4 -6)
@@ -839,7 +748,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "5a93d65e-bb75-402d-bad8-94e6a8300f90")
+			(uuid "f1de1076-418a-44a7-b4e0-d609e40962e8")
 		)
 		(fp_line
 			(start -11.3 6)
@@ -849,7 +758,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "0280dba6-285e-4c2d-9353-c9a55d79c1fa")
+			(uuid "d813e5e4-fcaf-49c9-ab96-42e5f7485ed7")
 		)
 		(fp_line
 			(start -11.3 -5.1)
@@ -859,7 +768,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "757c03e8-efe4-44e8-8a1b-0a886bd73e8f")
+			(uuid "15d29ce1-aebe-47ae-93bb-d4c9eac5dc89")
 		)
 		(fp_line
 			(start -11.3 -5.1)
@@ -869,7 +778,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "d344aae7-a4a9-4a41-86c9-dcc4ecbf8c87")
+			(uuid "e363214e-4627-431c-a0b3-f203a2639729")
 		)
 		(fp_text user "${REFERENCE}"
 			(at -8.25 0 0)
@@ -887,35 +796,35 @@
 			(size 1.2 1.2)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
-			(uuid "50d77e57-5ce2-4f04-9bf5-f1e3aad91a29")
+			(uuid "2bb1d074-1b84-48a6-9206-66972cba4fb8")
 		)
 		(pad "" np_thru_hole circle
 			(at -7.5 5 180)
 			(size 1.2 1.2)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
-			(uuid "e775c4dd-0475-43fb-86b1-c154f392726e")
+			(uuid "ae394e11-cf5a-433b-bdb8-9da1c0e49bfa")
 		)
 		(pad "" np_thru_hole circle
 			(at -5 -5 180)
 			(size 1.2 1.2)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
-			(uuid "9e7bb10a-32c2-4436-b5ce-1b979a4e6a20")
+			(uuid "085df877-f113-4985-ba80-7113c8607784")
 		)
 		(pad "" np_thru_hole circle
 			(at -5 5 180)
 			(size 1.2 1.2)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
-			(uuid "0a5115c7-dc38-46fb-8aa8-f19d9d014830")
+			(uuid "56bc0fc9-3c1a-49ed-aeb9-e2de249fdf4b")
 		)
 		(pad "" np_thru_hole circle
 			(at 0 0 180)
 			(size 1.2 1.2)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
-			(uuid "b9dfa674-352b-4c3b-9184-f41a8074b365")
+			(uuid "e069d467-be8c-4ffa-8e58-e6a3692a35f4")
 		)
 		(pad "R" thru_hole rect
 			(at 0 -5 180)
@@ -2108,7 +2017,7 @@
 				)
 			)
 		)
-		(property "Description" "8-bit magnitude comparator"
+		(property "Description" "Digital Comparator, 74HCT688, Magnitude, 8 Channels, 8bit, SOIC, 20 Pins"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2116,6 +2025,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Farnell url" "https://uk.farnell.com/texas-instruments/cd74hct688m96/comparator-magnitude-8bit-soic/dp/3006842"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8e77785f-54e3-4e48-af2d-89ddf1f5abd8")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2780,7 +2702,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/875105240001.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2792,7 +2714,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor, small symbol"
+		(property "Description" "Polymer Aluminium Electrolytic Capacitor, 10 µF, 10 V, Radial Can - SMD, 0.045 ohm"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2800,6 +2722,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Farnell url" "https://uk.farnell.com/wurth-elektronik/875105240001/cap-10-f-10v-20/dp/2466639"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c4d42fb9-1423-4d03-a2d5-0d41139897a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "875105240001"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d28e3787-fd39-4888-9241-d7f2db7174f4")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3409,7 +3357,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.bitsavers.org/components/yamaha/YMF262_199110.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4132,7 +4080,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.abracon.com/Oscillators/ASV.pdf"
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/SCMP/SCMP-S-A0010069830/SCMP-S-A0010069830-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4144,7 +4092,7 @@
 				)
 			)
 		)
-		(property "Description" "3.3V HCMOS SMD Crystal Clock Oscillator, Abracon"
+		(property "Description" "Oscillator, 14.31818 MHz, 25 ppm, SMD, 7mm x 5mm, CMOS / TTL, 5 V"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4152,6 +4100,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Farnell url" "https://uk.farnell.com/multicomp-pro/mcsjk-6nc1-14-31818-25-b/oscillator-14-31818mhz-7mm-x-5mm/dp/2854363"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "01204b1f-8e92-4d1e-85dc-c013fbd2df4b")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4387,7 +4348,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ardent-tool.com/datasheets/Yamaha_YAC512.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4399,7 +4360,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2-Channel floating D/A converter"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5109,7 +5070,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 100 mW, 0603 [1608 Metric], Thick Film, General Purpose"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5117,6 +5078,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Farnell url" "https://uk.farnell.com/multicomp-pro/mcwr06x1002ftl/res-10k-1-0-1w-0603-thick-film/dp/2447230"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0ed6c969-1d5d-4fdc-9434-b4ee743bf1ec")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5507,7 +5481,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 100 mW, 0603 [1608 Metric], Thick Film, General Purpose"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5515,6 +5489,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Farnell url" "https://uk.farnell.com/multicomp-pro/mcwr06x1002ftl/res-10k-1-0-1w-0603-thick-film/dp/2447230"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bdc6a5ae-0036-4e2f-820e-de9a9a9e4d2f")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -6303,7 +6290,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 100 mW, 0603 [1608 Metric], Thick Film, General Purpose"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6311,6 +6298,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Farnell url" "https://uk.farnell.com/multicomp-pro/mcwr06x1002ftl/res-10k-1-0-1w-0603-thick-film/dp/2447230"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aacebc96-2ed0-4810-b25d-ff2ce9f2f7e0")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -6502,7 +6502,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 100 mW, 0603 [1608 Metric], Thick Film, General Purpose"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6510,6 +6510,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Farnell url" "https://uk.farnell.com/multicomp-pro/mcwr06x1002ftl/res-10k-1-0-1w-0603-thick-film/dp/2447230"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ee404cde-fb81-44f5-9e21-3e349c4b1e5e")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -6713,6 +6726,19 @@
 				)
 			)
 		)
+		(property "Farnell url" "https://uk.farnell.com/multicomp-pro/mc0603n272j500ct/cap-mlcc-2700pf-c0g-np0-50v-0603/dp/4540299"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "25efa144-6068-4a72-b157-4a0a4937e39c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/ba071aba-29ab-4433-83b1-111d406a3822")
 		(sheetname "/")
@@ -6900,7 +6926,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 100 mW, 0603 [1608 Metric], Thick Film, General Purpose"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6908,6 +6934,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Farnell url" "https://uk.farnell.com/multicomp-pro/mcwr06x1002ftl/res-10k-1-0-1w-0603-thick-film/dp/2447230"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "deb0396f-84e2-43bf-8241-490e19b164f7")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -7853,7 +7892,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/875105240001.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7865,7 +7904,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor, small symbol"
+		(property "Description" "Polymer Aluminium Electrolytic Capacitor, 10 µF, 10 V, Radial Can - SMD, 0.045 ohm"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7873,6 +7912,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Farnell url" "https://uk.farnell.com/wurth-elektronik/875105240001/cap-10-f-10v-20/dp/2466639"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8872bfd7-cc0d-465d-a927-399aeaff7d88")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -7890,7 +7942,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4cf8deae-5627-4a77-9fb9-9fa39f24fa8c")
+			(uuid "7bef96f3-9245-4e7c-b862-ce064b57d7b6")
 		)
 		(fp_line
 			(start -4.04375 -2.24125)
@@ -7900,7 +7952,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d15e3358-5bba-4238-945f-b3caa002996e")
+			(uuid "d0448dbd-8946-4f8f-bf50-4dade5bba181")
 		)
 		(fp_line
 			(start -3.41 -2.345563)
@@ -7910,7 +7962,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4d343519-36ae-449a-9004-4e4f67f3d372")
+			(uuid "66c0dd5f-d852-41ef-a100-283ff934e3e8")
 		)
 		(fp_line
 			(start -3.41 -2.345563)
@@ -7920,7 +7972,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "7b0ba0f4-e6c8-4127-aa61-5e489ba22751")
+			(uuid "d6a4e65c-4c73-4d5d-b029-c0444d1e7b33")
 		)
 		(fp_line
 			(start -3.41 2.345563)
@@ -7930,7 +7982,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "c0379529-2b2d-46f7-a390-d6be668ae974")
+			(uuid "9a08b26a-8529-4e0a-ab0b-dc20fc13919f")
 		)
 		(fp_line
 			(start -3.41 2.345563)
@@ -7940,7 +7992,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "de454e66-95db-4d47-b987-2bd693902e9e")
+			(uuid "daf8173c-3ae4-4aef-b9e3-dbe7af6856c7")
 		)
 		(fp_line
 			(start -2.345563 -3.41)
@@ -7950,7 +8002,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "1a6e9028-6635-4084-abfb-11f0ecded2b0")
+			(uuid "620b1cdb-6266-4414-b028-f18e80326e20")
 		)
 		(fp_line
 			(start -2.345563 3.41)
@@ -7960,7 +8012,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "67709e51-d434-40f4-b9b2-9aff97d2d979")
+			(uuid "b36c6425-51f7-44be-925c-dfa553c48f65")
 		)
 		(fp_line
 			(start 3.41 -3.41)
@@ -7970,7 +8022,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "3f784358-d8b5-4107-9249-07ed3f3eee30")
+			(uuid "36cfa7d3-295e-4354-a172-8cab553ef905")
 		)
 		(fp_line
 			(start 3.41 3.41)
@@ -7980,7 +8032,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "3f447075-e42a-46e7-b041-deba1f33c737")
+			(uuid "2b697acc-2077-4a80-b1cb-27e0091e30fc")
 		)
 		(fp_line
 			(start -4.7 -1.05)
@@ -7990,7 +8042,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "5120d037-caee-47c7-bb7c-610fdafe1f04")
+			(uuid "3fdd2311-8f2e-47c6-bbe3-3bf3a5d5ff71")
 		)
 		(fp_line
 			(start -4.7 1.05)
@@ -8000,7 +8052,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "ff3601ab-f918-4907-8b3a-94817109abd8")
+			(uuid "833950dd-12e7-4cce-bfed-18932e1a2b7c")
 		)
 		(fp_line
 			(start -3.55 -2.4)
@@ -8010,7 +8062,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "7c11ff01-f98a-46ce-a6cb-3e846700fda3")
+			(uuid "1e38d2e2-c3be-49b3-962e-a2b12433bff5")
 		)
 		(fp_line
 			(start -3.55 -2.4)
@@ -8020,7 +8072,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "683ad672-69d8-4dbf-af79-ac947a6f8394")
+			(uuid "5c522c74-0fcf-438c-8077-f7ee76615100")
 		)
 		(fp_line
 			(start -3.55 -1.05)
@@ -8030,7 +8082,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "f19f9ed5-5835-4775-a003-9aeafffc546e")
+			(uuid "6dcf2c17-37ba-4d4d-9262-c35c780a84f8")
 		)
 		(fp_line
 			(start -3.55 1.05)
@@ -8040,7 +8092,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "da693962-b56c-4d0f-a597-d0369e4bdfa3")
+			(uuid "71b404b1-1088-4d09-a940-677eaea2d532")
 		)
 		(fp_line
 			(start -3.55 2.4)
@@ -8050,7 +8102,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "cb3abb12-ad74-4ccd-bd59-b6c6d6664da9")
+			(uuid "6a938210-b0c3-4159-a1ff-03c51beeaa95")
 		)
 		(fp_line
 			(start -2.4 -3.55)
@@ -8060,7 +8112,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "f2ab0d70-2f80-4e62-be9a-285fc6be481a")
+			(uuid "4c8e4670-d7af-4612-841c-7dd9ae800ee0")
 		)
 		(fp_line
 			(start -2.4 3.55)
@@ -8070,7 +8122,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "799032c0-4826-464c-a5f1-2d0bbf00a7b9")
+			(uuid "d330b07d-6385-41c7-ae80-53d11734d683")
 		)
 		(fp_line
 			(start 3.55 -3.55)
@@ -8080,7 +8132,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "3b2bdc0c-af34-4a0c-a18f-ef842084105c")
+			(uuid "29df6284-eff8-483e-9ce0-7f649582f5a1")
 		)
 		(fp_line
 			(start 3.55 -1.05)
@@ -8090,7 +8142,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "7ce74eeb-3975-4da1-822b-e4add9bd6897")
+			(uuid "2d4958ac-8b76-4bd3-9e3d-1b8dfbd79db3")
 		)
 		(fp_line
 			(start 3.55 1.05)
@@ -8100,7 +8152,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "7e4d62d7-70cb-4fcd-8151-d5cbe72b4fb0")
+			(uuid "afc20552-4154-4a3c-8b88-6f344d7c10b3")
 		)
 		(fp_line
 			(start 4.7 -1.05)
@@ -8110,7 +8162,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "b606d246-f77b-49c6-b782-e1fc53e6832f")
+			(uuid "6659da91-a2ba-48a8-a405-ca9fdf0ead79")
 		)
 		(fp_line
 			(start 4.7 1.05)
@@ -8120,7 +8172,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "cf363442-4938-4c42-93dd-f910236612f5")
+			(uuid "af9e4d1d-fd37-4f90-892d-f9c2b00e29f1")
 		)
 		(fp_line
 			(start -3.3 -2.3)
@@ -8130,7 +8182,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "336efc7e-48b8-406f-ba0c-85f2aa65be13")
+			(uuid "ad013f4d-1104-404f-ae07-8acb4efd192b")
 		)
 		(fp_line
 			(start -3.3 -2.3)
@@ -8140,7 +8192,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "3a4157ed-b06f-4c2c-a0dc-6e20ded0efcd")
+			(uuid "07aa0393-96a5-44b6-a415-ca4afe1e07c2")
 		)
 		(fp_line
 			(start -3.3 2.3)
@@ -8150,7 +8202,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "d34c05a5-7566-4cfc-83cd-8e43a8fc700f")
+			(uuid "89c58f22-796d-4f81-8324-fc00818a3d91")
 		)
 		(fp_line
 			(start -2.704838 -1.33)
@@ -8160,7 +8212,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "09861977-297c-44b1-8a90-ddab0e5565e8")
+			(uuid "52e4e117-1aa1-47c3-b796-6c7a19b78a21")
 		)
 		(fp_line
 			(start -2.389838 -1.645)
@@ -8170,7 +8222,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "64f9fec4-b00e-4d79-a332-cd3debd01e90")
+			(uuid "44c861be-13b8-4e0a-b7a1-d0025c37c7c9")
 		)
 		(fp_line
 			(start -2.3 -3.3)
@@ -8180,7 +8232,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "7155c213-7835-4fdc-8461-cfdf60cfe4e3")
+			(uuid "aa5c9817-b755-46fd-997a-070420786ee7")
 		)
 		(fp_line
 			(start -2.3 3.3)
@@ -8190,7 +8242,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "67223d64-ab47-46f8-b3ed-6fecff4169bb")
+			(uuid "109d0e95-4238-40ee-a9f7-7d8c6aedb36e")
 		)
 		(fp_line
 			(start 3.3 -3.3)
@@ -8200,7 +8252,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "495eaa83-0c92-40ef-819b-d9505c213889")
+			(uuid "2b8b5094-1510-48d3-96dd-5944fb80bf1c")
 		)
 		(fp_circle
 			(center 0 0)
@@ -8211,7 +8263,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "fe9098e9-ce87-4e52-8a63-b9d83107483e")
+			(uuid "121a2aaf-22cd-4f6f-a48e-c4cb1ab327f7")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -8295,7 +8347,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 100 mW, 0603 [1608 Metric], Thick Film, General Purpose"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8303,6 +8355,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Farnell url" "https://uk.farnell.com/multicomp-pro/mcwr06x1002ftl/res-10k-1-0-1w-0603-thick-film/dp/2447230"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c0c5c1d4-f0ec-42c0-bc1b-834f90e0fc0f")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -8494,7 +8559,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor, small symbol"
+		(property "Description" "Polymer Aluminium Electrolytic Capacitor, 100 µF, 25 V, Radial Can - SMD, 0.036 ohm"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8502,6 +8567,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Farnell url" "https://uk.farnell.com/kemet/a768eb107m1elas036/cap-100uf-25v-alu-elec-smd-polymer/dp/4071180"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b9f4eab6-a7f8-43b0-85cd-b822deb20fe1")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -8912,7 +8990,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/875105240001.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8924,7 +9002,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor, small symbol"
+		(property "Description" "Polymer Aluminium Electrolytic Capacitor, 10 µF, 10 V, Radial Can - SMD, 0.045 ohm"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8932,6 +9010,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Farnell url" "https://uk.farnell.com/wurth-elektronik/875105240001/cap-10-f-10v-20/dp/2466639"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad1b613b-1b14-4dce-a8a7-92edc121a1c5")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -9342,7 +9433,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/875105240001.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9354,7 +9445,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor, small symbol"
+		(property "Description" "Polymer Aluminium Electrolytic Capacitor, 10 µF, 10 V, Radial Can - SMD, 0.045 ohm"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9362,6 +9453,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Farnell url" "https://uk.farnell.com/wurth-elektronik/875105240001/cap-10-f-10v-20/dp/2466639"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0a999e31-2061-482a-9474-dbe4679c6b94")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)

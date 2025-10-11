@@ -186,14 +186,6 @@ outputs:
   comment: Download the datasheets
   type: download_datasheets
   dir: Datasheets
-- name: basic_gerb_drill
-  comment: Drill files in GERB_DRILL format
-  type: gerb_drill
-  dir: Gerbers_and_Drill
-  options:
-    map: gerber
-    suffix: F_Fab
-    description: Front documentation
 - name: basic_ibom
   comment: Interactive HTML BoM
   type: ibom
