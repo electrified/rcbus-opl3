@@ -4881,7 +4881,7 @@
 		(uuid "14938442-d78b-4c42-98df-4cdb560305ee")
 	)
 	(junction
-		(at 218.44 132.08)
+		(at 218.44 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "19e69b3f-8278-4a45-8474-68407efcf76c")
@@ -5019,7 +5019,7 @@
 		(uuid "bee2f9c2-ff6a-43b5-a458-ffce25c2cabe")
 	)
 	(junction
-		(at 232.41 144.78)
+		(at 232.41 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c210939f-f422-4702-8f5f-afafee8fc57c")
@@ -5085,13 +5085,13 @@
 		(uuid "ef530eb9-57dc-4388-a101-fb5689f50a45")
 	)
 	(junction
-		(at 218.44 152.4)
+		(at 218.44 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f23e4028-655e-476d-9d39-ad6c7ce44809")
 	)
 	(junction
-		(at 232.41 152.4)
+		(at 232.41 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc3d51c1-8b35-4da3-a742-0ebe104989d7")
@@ -5404,7 +5404,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 147.32) (xy 232.41 144.78)
+			(xy 232.41 144.78) (xy 232.41 142.24)
 		)
 		(stroke
 			(width 0)
@@ -5414,7 +5414,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 48.26) (xy 237.49 48.26)
+			(xy 207.01 48.26) (xy 236.22 48.26)
 		)
 		(stroke
 			(width 0)
@@ -5424,7 +5424,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 132.08) (xy 205.74 132.08)
+			(xy 201.93 134.62) (xy 205.74 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5544,7 +5544,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 45.72) (xy 241.3 45.72)
+			(xy 207.01 45.72) (xy 240.03 45.72)
 		)
 		(stroke
 			(width 0)
@@ -5681,16 +5681,6 @@
 			(type default)
 		)
 		(uuid "3947d66b-0077-4620-9cf6-c082f13606ad")
-	)
-	(wire
-		(pts
-			(xy 223.52 144.78) (xy 232.41 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "395ccbff-607c-4c43-bac3-1fd9e1eb7d8e")
 	)
 	(wire
 		(pts
@@ -5954,7 +5944,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 132.08) (xy 223.52 132.08)
+			(xy 218.44 134.62) (xy 223.52 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5974,7 +5964,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 152.4) (xy 218.44 152.4)
+			(xy 213.36 149.86) (xy 218.44 149.86)
 		)
 		(stroke
 			(width 0)
@@ -6234,7 +6224,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 45.72) (xy 241.3 58.42)
+			(xy 240.03 45.72) (xy 240.03 58.42)
 		)
 		(stroke
 			(width 0)
@@ -6264,7 +6254,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 132.08) (xy 223.52 144.78)
+			(xy 223.52 134.62) (xy 223.52 142.24)
 		)
 		(stroke
 			(width 0)
@@ -6294,6 +6284,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 142.24) (xy 232.41 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fad2e9c-04a0-44c6-86df-f051103add96")
+	)
+	(wire
+		(pts
 			(xy 101.6 133.35) (xy 107.95 133.35)
 		)
 		(stroke
@@ -6314,7 +6314,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 152.4) (xy 205.74 152.4)
+			(xy 201.93 149.86) (xy 205.74 149.86)
 		)
 		(stroke
 			(width 0)
@@ -6334,7 +6334,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 58.42) (xy 243.84 58.42)
+			(xy 240.03 58.42) (xy 243.84 58.42)
 		)
 		(stroke
 			(width 0)
@@ -6384,7 +6384,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 132.08) (xy 218.44 132.08)
+			(xy 213.36 134.62) (xy 218.44 134.62)
 		)
 		(stroke
 			(width 0)
@@ -6754,7 +6754,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 152.4) (xy 232.41 149.86)
+			(xy 232.41 149.86) (xy 232.41 147.32)
 		)
 		(stroke
 			(width 0)
@@ -6824,7 +6824,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 152.4) (xy 232.41 152.4)
+			(xy 218.44 149.86) (xy 232.41 149.86)
 		)
 		(stroke
 			(width 0)
@@ -6994,7 +6994,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 72.39) (xy 241.3 72.39)
+			(xy 236.22 72.39) (xy 241.3 72.39)
 		)
 		(stroke
 			(width 0)
@@ -7014,7 +7014,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 48.26) (xy 237.49 72.39)
+			(xy 236.22 48.26) (xy 236.22 72.39)
 		)
 		(stroke
 			(width 0)
@@ -7064,7 +7064,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 152.4) (xy 196.85 152.4)
+			(xy 187.96 149.86) (xy 196.85 149.86)
 		)
 		(stroke
 			(width 0)
@@ -7134,7 +7134,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 132.08) (xy 196.85 132.08)
+			(xy 187.96 134.62) (xy 196.85 134.62)
 		)
 		(stroke
 			(width 0)
@@ -7454,7 +7454,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 154.94) (xy 232.41 154.94)
+			(xy 229.87 152.4) (xy 232.41 152.4)
 		)
 		(stroke
 			(width 0)
@@ -7643,7 +7643,7 @@
 		(uuid "38ebe08d-43f5-42b9-a278-820b18d30b96")
 	)
 	(label "R"
-		(at 187.96 152.4 0)
+		(at 187.96 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7873,7 +7873,7 @@
 		(uuid "b1913c6f-e118-40b2-bfa7-56c8c50000f4")
 	)
 	(label "L"
-		(at 187.96 132.08 0)
+		(at 187.96 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8077,7 +8077,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61304011021.pdf"
 			(at 26.67 69.85 0)
 			(effects
 				(font
@@ -8087,6 +8087,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x39, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 26.67 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell_URI" "https://uk.farnell.com/wurth-elektronik/61304011021/header-2-54mm-pin-tht-r-a-40way/dp/2356192"
 			(at 26.67 69.85 0)
 			(effects
 				(font
@@ -8452,7 +8461,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/SCMP/SCMP-S-A0009426256/SCMP-S-A0009474646-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
 			(at 132.08 25.4 0)
 			(effects
 				(font
@@ -8462,6 +8471,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 132.08 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell_URI" "https://uk.farnell.com/multicomp-pro/mc0603b104m250ct/cap-0-1-f-25v-20-x7r-0603/dp/2627428"
 			(at 132.08 25.4 0)
 			(effects
 				(font
@@ -8521,7 +8539,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/SCMP/SCMP-S-A0009426256/SCMP-S-A0009474646-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
 			(at 113.03 110.49 0)
 			(effects
 				(font
@@ -8531,6 +8549,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 113.03 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell_URI" "https://uk.farnell.com/multicomp-pro/mc0603b104m250ct/cap-0-1-f-25v-20-x7r-0603/dp/2627428"
 			(at 113.03 110.49 0)
 			(effects
 				(font
@@ -8718,7 +8745,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/HRWN/HRWN-S-A0001370718/HRWN-S-A0009370459-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
 			(at 81.28 67.31 0)
 			(effects
 				(font
@@ -8728,6 +8755,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 81.28 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell_URI" "https://uk.farnell.com/harwin/m20-9980346/connector-header-tht-2-54mm-6way/dp/1022231"
 			(at 81.28 67.31 0)
 			(effects
 				(font
@@ -8817,7 +8853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/SCMP/SCMP-S-A0009426256/SCMP-S-A0009474646-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
 			(at 205.74 100.33 0)
 			(effects
 				(font
@@ -8827,6 +8863,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 205.74 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell_URI" "https://uk.farnell.com/multicomp-pro/mc0603b104m250ct/cap-0-1-f-25v-20-x7r-0603/dp/2627428"
 			(at 205.74 100.33 0)
 			(effects
 				(font
@@ -8990,7 +9035,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d07afbc")
 		(property "Reference" "C9"
-			(at 53.0352 72.4916 0)
+			(at 46.228 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9016,7 +9061,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/A768EB107M1ELAS036"
 			(at 50.8 73.66 0)
 			(effects
 				(font
@@ -9026,6 +9071,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small symbol"
+			(at 50.8 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell_URI" "https://uk.farnell.com/kemet/a768eb107m1elas036/cap-100uf-25v-alu-elec-smd-polymer/dp/4071180"
 			(at 50.8 73.66 0)
 			(effects
 				(font
@@ -9244,7 +9298,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
-		(at 237.49 152.4 180)
+		(at 237.49 149.86 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9252,7 +9306,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f4c525c")
 		(property "Reference" "CON1"
-			(at 245.8212 151.0538 0)
+			(at 245.8212 148.5138 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9261,7 +9315,7 @@
 			)
 		)
 		(property "Value" "3.5mm jack"
-			(at 245.8212 153.7462 0)
+			(at 245.8212 151.2062 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9270,7 +9324,7 @@
 			)
 		)
 		(property "Footprint" "electrified:Headphone_Jack_3.5mm_5_pin"
-			(at 237.49 152.4 0)
+			(at 237.49 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9278,8 +9332,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 237.49 152.4 0)
+		(property "Datasheet" "https://www.farnell.com/datasheets/2028381.pdf"
+			(at 237.49 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9288,7 +9342,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
-			(at 237.49 152.4 0)
+			(at 237.49 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9296,83 +9350,12 @@
 				(hide yes)
 			)
 		)
-		(property "Digi-Key_PN" "CP1-3523N-ND"
-			(at 232.41 162.56 0)
+		(property "Farnell_URI" "https://uk.farnell.com/cliff-electronic-components/fc68131/stereo-jack-3-5mm-3pos-pcb/dp/2518188"
+			(at 237.49 149.86 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SJ1-3523N"
-			(at 232.41 165.1 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Category" "Connectors, Interconnects"
-			(at 232.41 167.64 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Family" "Barrel - Audio Connectors"
-			(at 232.41 170.18 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "DK_Datasheet_Link" "https://www.cui.com/product/resource/digikeypdf/sj1-352xn_series.pdf"
-			(at 232.41 172.72 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "DK_Detail_Page" "/product-detail/en/cui-inc/SJ1-3523N/CP1-3523N-ND/738689"
-			(at 232.41 175.26 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "CUI Inc."
-			(at 232.41 180.34 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 232.41 182.88 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -9446,6 +9429,15 @@
 			)
 		)
 		(property "Description" "8-bit magnitude comparator"
+			(at 139.7 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell_URI" "https://uk.farnell.com/texas-instruments/cd74hct688m96/comparator-magnitude-8bit-soic/dp/3006842"
 			(at 139.7 59.69 0)
 			(effects
 				(font
@@ -10014,7 +10006,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/SCMP/SCMP-S-A0009426256/SCMP-S-A0009474646-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
 			(at 200.66 26.67 0)
 			(effects
 				(font
@@ -10024,6 +10016,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 200.66 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell_URI" "https://uk.farnell.com/multicomp-pro/mc0603b104m250ct/cap-0-1-f-25v-20-x7r-0603/dp/2627428"
 			(at 200.66 26.67 0)
 			(effects
 				(font
@@ -10083,7 +10084,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/875105240001.pdf"
 			(at 233.68 33.02 0)
 			(effects
 				(font
@@ -10093,6 +10094,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small symbol"
+			(at 233.68 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell_URI" "https://uk.farnell.com/wurth-elektronik/875105240001/cap-10-f-10v-20/dp/2466639"
 			(at 233.68 33.02 0)
 			(effects
 				(font
@@ -10118,7 +10128,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_Small")
-		(at 199.39 132.08 90)
+		(at 199.39 134.62 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10126,7 +10136,7 @@
 		(dnp no)
 		(uuid "001962d0-ff8f-4551-9fef-07e557568285")
 		(property "Reference" "C7"
-			(at 199.6821 136.144 90)
+			(at 199.6821 138.684 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10134,7 +10144,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 199.39 138.938 90)
+			(at 199.39 141.478 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10142,7 +10152,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.8"
-			(at 199.39 132.08 0)
+			(at 199.39 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10150,8 +10160,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 199.39 132.08 0)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/875105240001.pdf"
+			(at 199.39 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10160,7 +10170,16 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small symbol"
-			(at 199.39 132.08 0)
+			(at 199.39 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell_URI" "https://uk.farnell.com/wurth-elektronik/875105240001/cap-10-f-10v-20/dp/2466639"
+			(at 199.39 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10250,7 +10269,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 218.44 135.89 180)
+		(at 218.44 138.43 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10258,7 +10277,7 @@
 		(dnp no)
 		(uuid "09bbe5e7-a3c8-490d-a07e-8d6f2692be90")
 		(property "Reference" "R2"
-			(at 221.742 135.89 90)
+			(at 221.742 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10266,7 +10285,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 216.154 136.398 90)
+			(at 216.154 138.938 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10274,7 +10293,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 220.218 135.89 90)
+			(at 220.218 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10282,8 +10301,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 218.44 135.89 0)
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/SCMP/SCMP-S-A0009547702/SCMP-S-A0009547702-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
+			(at 218.44 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10292,7 +10311,16 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 218.44 135.89 0)
+			(at 218.44 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell_URI" "https://uk.farnell.com/multicomp-pro/mcwr06x1002ftl/res-10k-1-0-1w-0603-thick-film/dp/2447230"
+			(at 218.44 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10351,7 +10379,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.farnell.com/datasheets/4417444.pdf"
 			(at 237.49 111.76 0)
 			(effects
 				(font
@@ -10361,6 +10389,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 237.49 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell_URI" "https://uk.farnell.com/multicomp-pro/mc0603n272j500ct/cap-mlcc-2700pf-c0g-np0-50v-0603/dp/4540299"
 			(at 237.49 111.76 0)
 			(effects
 				(font
@@ -10485,7 +10522,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/SCMP/SCMP-S-A0009547702/SCMP-S-A0009547702-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
 			(at 97.79 78.74 0)
 			(effects
 				(font
@@ -10495,6 +10532,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 97.79 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell_URI" "https://uk.farnell.com/multicomp-pro/mcwr06x1002ftl/res-10k-1-0-1w-0603-thick-film/dp/2447230"
 			(at 97.79 78.74 0)
 			(effects
 				(font
@@ -10562,6 +10608,15 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 262.89 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell_URI" "https://uk.farnell.com/stmicroelectronics/tl074cdt/opamp-3mhz-0-to-70deg-c/dp/3367323"
 			(at 262.89 85.09 0)
 			(effects
 				(font
@@ -10722,7 +10777,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/SCMP/SCMP-S-A0009547702/SCMP-S-A0009547702-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
 			(at 113.03 78.74 0)
 			(effects
 				(font
@@ -10732,6 +10787,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 113.03 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell_URI" "https://uk.farnell.com/multicomp-pro/mcwr06x1002ftl/res-10k-1-0-1w-0603-thick-film/dp/2447230"
 			(at 113.03 78.74 0)
 			(effects
 				(font
@@ -10921,7 +10985,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/SCMP/SCMP-S-A0009547702/SCMP-S-A0009547702-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
 			(at 87.63 78.74 0)
 			(effects
 				(font
@@ -10931,6 +10995,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 87.63 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell_URI" "https://uk.farnell.com/multicomp-pro/mcwr06x1002ftl/res-10k-1-0-1w-0603-thick-film/dp/2447230"
 			(at 87.63 78.74 0)
 			(effects
 				(font
@@ -10999,6 +11072,15 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 262.89 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell_URI" "https://uk.farnell.com/stmicroelectronics/tl074cdt/opamp-3mhz-0-to-70deg-c/dp/3367323"
 			(at 262.89 60.96 0)
 			(effects
 				(font
@@ -11094,7 +11176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/SCMP/SCMP-S-A0009547702/SCMP-S-A0009547702-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
 			(at 107.95 78.74 0)
 			(effects
 				(font
@@ -11104,6 +11186,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 107.95 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell_URI" "https://uk.farnell.com/multicomp-pro/mcwr06x1002ftl/res-10k-1-0-1w-0603-thick-film/dp/2447230"
 			(at 107.95 78.74 0)
 			(effects
 				(font
@@ -11137,7 +11228,7 @@
 		(dnp no)
 		(uuid "4f9b5912-c8e4-403c-bf36-d6adb380bfc8")
 		(property "Reference" "C10"
-			(at 61.722 72.898 0)
+			(at 56.134 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11145,7 +11236,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 58.42 83.312 0)
+			(at 58.42 78.994 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11161,7 +11252,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/875105240001.pdf"
 			(at 58.42 73.66 0)
 			(effects
 				(font
@@ -11171,6 +11262,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small symbol"
+			(at 58.42 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell_URI" "https://uk.farnell.com/wurth-elektronik/875105240001/cap-10-f-10v-20/dp/2466639"
 			(at 58.42 73.66 0)
 			(effects
 				(font
@@ -11230,7 +11330,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/SCMP/SCMP-S-A0009547702/SCMP-S-A0009547702-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
 			(at 92.71 78.74 0)
 			(effects
 				(font
@@ -11240,6 +11340,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 92.71 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell_URI" "https://uk.farnell.com/multicomp-pro/mcwr06x1002ftl/res-10k-1-0-1w-0603-thick-film/dp/2447230"
 			(at 92.71 78.74 0)
 			(effects
 				(font
@@ -11395,7 +11504,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 218.44 156.21 180)
+		(at 218.44 153.67 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11403,7 +11512,7 @@
 		(dnp no)
 		(uuid "629fe1c1-a1cd-4255-901e-ba9af73ce5ce")
 		(property "Reference" "R5"
-			(at 221.742 156.21 90)
+			(at 221.742 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11411,7 +11520,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 216.154 156.718 90)
+			(at 216.154 154.178 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11419,7 +11528,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 220.218 156.21 90)
+			(at 220.218 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11427,8 +11536,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 218.44 156.21 0)
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/SCMP/SCMP-S-A0009547702/SCMP-S-A0009547702-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
+			(at 218.44 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11437,7 +11546,16 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 218.44 156.21 0)
+			(at 218.44 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell_URI" "https://uk.farnell.com/multicomp-pro/mcwr06x1002ftl/res-10k-1-0-1w-0603-thick-film/dp/2447230"
+			(at 218.44 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11513,6 +11631,15 @@
 				(hide yes)
 			)
 		)
+		(property "Farnell_URI" "https://uk.farnell.com/multicomp-pro/mcsjk-6nc1-14-31818-25-b/oscillator-14-31818mhz-7mm-x-5mm/dp/2854363"
+			(at 82.55 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "b40d955a-0bc2-48b8-a37c-7aece6e22629")
 		)
@@ -11571,7 +11698,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ardent-tool.com/datasheets/Yamaha_YAC512.pdf"
 			(at 195.58 80.518 0)
 			(effects
 				(font
@@ -11682,7 +11809,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/SCMP/SCMP-S-A0009426256/SCMP-S-A0009474646-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
 			(at 87.63 153.67 0)
 			(effects
 				(font
@@ -11692,6 +11819,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 87.63 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell_URI" "https://uk.farnell.com/multicomp-pro/mc0603b104m250ct/cap-0-1-f-25v-20-x7r-0603/dp/2627428"
 			(at 87.63 153.67 0)
 			(effects
 				(font
@@ -11749,7 +11885,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/SCMP/SCMP-S-A0009547702/SCMP-S-A0009547702-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
 			(at 245.11 72.39 0)
 			(effects
 				(font
@@ -11760,6 +11896,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 245.11 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell_URI" "https://uk.farnell.com/multicomp-pro/mcwr06x33r0ftl/res-33r-1-0-1w-thick-film/dp/2447344"
+			(at 245.11 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11884,7 +12029,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.bitsavers.org/components/yamaha/YMF262_199110.pdf"
 			(at 119.38 164.338 0)
 			(effects
 				(font
@@ -11985,7 +12130,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 218.44 160.02 0)
+		(at 218.44 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11993,7 +12138,7 @@
 		(dnp no)
 		(uuid "85d3cbae-747a-409c-be61-6ca8fbdf5d1c")
 		(property "Reference" "#PWR019"
-			(at 218.44 166.37 0)
+			(at 218.44 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12002,7 +12147,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 218.44 163.83 0)
+			(at 218.44 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12010,7 +12155,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 160.02 0)
+			(at 218.44 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12019,7 +12164,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 160.02 0)
+			(at 218.44 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12028,7 +12173,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 218.44 160.02 0)
+			(at 218.44 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12050,7 +12195,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 218.44 139.7 0)
+		(at 218.44 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12058,7 +12203,7 @@
 		(dnp no)
 		(uuid "91ff30a0-80eb-4e7b-a6d3-99cb3bee136b")
 		(property "Reference" "#PWR012"
-			(at 218.44 146.05 0)
+			(at 218.44 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12067,7 +12212,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 218.44 144.018 0)
+			(at 218.44 146.558 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12075,7 +12220,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 139.7 0)
+			(at 218.44 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12084,7 +12229,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 139.7 0)
+			(at 218.44 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12093,7 +12238,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 218.44 139.7 0)
+			(at 218.44 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12115,7 +12260,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 209.55 132.08 90)
+		(at 209.55 134.62 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12123,7 +12268,7 @@
 		(dnp no)
 		(uuid "95c4881a-cc15-4c31-92dc-4b4d979d4673")
 		(property "Reference" "R3"
-			(at 209.55 135.382 90)
+			(at 209.55 137.922 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12131,7 +12276,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 209.042 129.794 90)
+			(at 209.042 132.334 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12139,7 +12284,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 209.55 133.858 90)
+			(at 209.55 136.398 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12147,8 +12292,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 209.55 132.08 0)
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/SCMP/SCMP-S-A0009547702/SCMP-S-A0009547702-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
+			(at 209.55 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12157,7 +12302,16 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 209.55 132.08 0)
+			(at 209.55 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell_URI" "https://uk.farnell.com/multicomp-pro/mcwr06x1000ftl/res-100r-1-0-1w-0603-thick-film/dp/2447227"
+			(at 209.55 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12313,7 +12467,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 209.55 152.4 90)
+		(at 209.55 149.86 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12321,7 +12475,7 @@
 		(dnp no)
 		(uuid "a934a69c-eb59-4fe6-8a23-e4e910373981")
 		(property "Reference" "R4"
-			(at 209.55 155.702 90)
+			(at 209.55 153.162 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12329,7 +12483,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 209.042 150.114 90)
+			(at 209.042 147.574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12337,7 +12491,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 209.55 154.178 90)
+			(at 209.55 151.638 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12345,8 +12499,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 209.55 152.4 0)
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/SCMP/SCMP-S-A0009547702/SCMP-S-A0009547702-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
+			(at 209.55 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12355,7 +12509,16 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 209.55 152.4 0)
+			(at 209.55 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell_URI" "https://uk.farnell.com/multicomp-pro/mcwr06x1000ftl/res-100r-1-0-1w-0603-thick-film/dp/2447227"
+			(at 209.55 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12414,7 +12577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.farnell.com/datasheets/4417444.pdf"
 			(at 243.84 60.96 0)
 			(effects
 				(font
@@ -12424,6 +12587,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 243.84 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell_URI" "https://uk.farnell.com/multicomp-pro/mc0603n680j500ct/cap-68pf-50v-5-c0g-np0-0603/dp/1759064"
 			(at 243.84 60.96 0)
 			(effects
 				(font
@@ -12483,7 +12655,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.farnell.com/datasheets/4417444.pdf"
 			(at 237.49 85.09 0)
 			(effects
 				(font
@@ -12493,6 +12665,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 237.49 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell_URI" "https://uk.farnell.com/multicomp-pro/mc0603n272j500ct/cap-mlcc-2700pf-c0g-np0-50v-0603/dp/4540299"
 			(at 237.49 85.09 0)
 			(effects
 				(font
@@ -12634,6 +12815,15 @@
 				(hide yes)
 			)
 		)
+		(property "Farnell_URI" "https://uk.farnell.com/stmicroelectronics/tl074cdt/opamp-3mhz-0-to-70deg-c/dp/3367323"
+			(at 262.89 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "15584030-4e82-476b-869c-0042657ac7be")
 		)
@@ -12752,7 +12942,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_Small")
-		(at 199.39 152.4 90)
+		(at 199.39 149.86 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12760,7 +12950,7 @@
 		(dnp no)
 		(uuid "cb54bcc4-c8bf-43ec-982f-38562cfdd035")
 		(property "Reference" "C2"
-			(at 199.39 157.988 90)
+			(at 199.39 155.448 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12768,7 +12958,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 199.39 155.702 90)
+			(at 199.39 153.162 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12776,7 +12966,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.8"
-			(at 199.39 152.4 0)
+			(at 199.39 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12784,8 +12974,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 199.39 152.4 0)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/875105240001.pdf"
+			(at 199.39 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12794,7 +12984,16 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small symbol"
-			(at 199.39 152.4 0)
+			(at 199.39 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell_URI" "https://uk.farnell.com/wurth-elektronik/875105240001/cap-10-f-10v-20/dp/2466639"
+			(at 199.39 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12935,6 +13134,15 @@
 				(hide yes)
 			)
 		)
+		(property "Farnell_URI" "https://uk.farnell.com/stmicroelectronics/tl074cdt/opamp-3mhz-0-to-70deg-c/dp/3367323"
+			(at 262.89 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "15584030-4e82-476b-869c-0042657ac7bf")
 		)
@@ -12988,7 +13196,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 229.87 154.94 0)
+		(at 229.87 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12996,7 +13204,7 @@
 		(dnp no)
 		(uuid "e3fc5061-ed61-46b8-94ef-c6e7f3c3e5ff")
 		(property "Reference" "#PWR037"
-			(at 229.87 161.29 0)
+			(at 229.87 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13005,7 +13213,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 229.87 158.75 0)
+			(at 229.87 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13013,7 +13221,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 229.87 154.94 0)
+			(at 229.87 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13022,7 +13230,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 154.94 0)
+			(at 229.87 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13031,7 +13239,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 229.87 154.94 0)
+			(at 229.87 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13171,6 +13379,15 @@
 				(hide yes)
 			)
 		)
+		(property "Farnell_URI" "https://uk.farnell.com/stmicroelectronics/tl074cdt/opamp-3mhz-0-to-70deg-c/dp/3367323"
+			(at 198.12 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "15584030-4e82-476b-869c-0042657ac7c0")
 		)
@@ -13258,7 +13475,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/SCMP/SCMP-S-A0009547702/SCMP-S-A0009547702-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
 			(at 102.87 78.74 0)
 			(effects
 				(font
@@ -13268,6 +13485,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 102.87 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell_URI" "https://uk.farnell.com/multicomp-pro/mcwr06x1002ftl/res-10k-1-0-1w-0603-thick-film/dp/2447230"
 			(at 102.87 78.74 0)
 			(effects
 				(font
