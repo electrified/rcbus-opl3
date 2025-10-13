@@ -653,6 +653,12 @@
           "label": "Farnell_URI",
           "name": "Farnell_URI",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
         }
       ],
       "filter_string": "",

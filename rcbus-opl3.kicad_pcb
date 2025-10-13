@@ -248,6 +248,19 @@
 				)
 			)
 		)
+		(property "MPN" "MC0603B104M250CT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a3cc4e3c-fb7a-4606-9e17-a05579bb0e71")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-000058c9a12d")
 		(sheetname "/")
@@ -460,6 +473,19 @@
 				)
 			)
 		)
+		(property "MPN" "MC0603B104M250CT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "86534d89-96ea-486f-b5d1-b698a4efee16")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-0000619a302e")
 		(sheetname "/")
@@ -664,6 +690,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8e9dca2a-9ea0-4533-9c8a-debc5d2b4d75")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "FC68131"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6d583ed4-1699-42c2-9fad-a08b341ab4c8")
 			(effects
 				(font
 					(size 1 1)
@@ -932,7 +971,7 @@
 				)
 			)
 		)
-		(property "Value" "BASE ADDRESS"
+		(property "Value" "2x06 pin header"
 			(at 2.07 14.98 180)
 			(layer "F.Fab")
 			(uuid "3db16a5a-c01b-43e0-a049-07de960c7d49")
@@ -955,7 +994,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, double row, 02x06"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -973,6 +1012,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9651d030-7609-4c2c-92ae-ac9f3e26e278")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "M20-9980346"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4436659b-4e73-44f9-ac12-43d0a29504b6")
 			(effects
 				(font
 					(size 1 1)
@@ -1364,6 +1416,19 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "edc26aba-010b-426d-b05e-e1e3ce354cc6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/00000000-0000-0000-0000-00005f1af0f5")
 		(sheetname "/")
@@ -1429,7 +1494,7 @@
 				)
 			)
 		)
-		(property "Value" "RC2014 BUS"
+		(property "Value" "1x39 pin header"
 			(at -2.75 3.5 180)
 			(layer "F.Fab")
 			(uuid "6003427e-8b38-425e-be88-fb8543dd7bdb")
@@ -1452,7 +1517,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x39, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, single row, 01x39"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1470,6 +1535,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d299c921-ea85-41cb-b43f-73cd180e456e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "61304011021"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c1ea6496-d506-43bc-99b6-b0bef757c9fb")
 			(effects
 				(font
 					(size 1 1)
@@ -2091,6 +2169,19 @@
 				)
 			)
 		)
+		(property "MPN" "CD74HCT688M96"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4f3dec99-3905-4cb4-9a87-47e9469b093d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "DIP?20* SOIC?20* SO?20* TSSOP?20*")
 		(path "/00000000-0000-0000-0000-00006173199f")
 		(sheetname "/")
@@ -2589,6 +2680,19 @@
 				)
 			)
 		)
+		(property "MPN" "MC0603N680J500CT"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "33d7f70a-8f6b-4a28-b3c9-6d179758e32c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/b7f86232-8963-4754-acef-b1c0c304fca2")
 		(sheetname "/")
@@ -2764,7 +2868,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/875105240001.pdf"
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_A4001_EDK.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2788,12 +2892,25 @@
 				)
 			)
 		)
-		(property "Farnell_URI" "https://uk.farnell.com/wurth-elektronik/875105240001/cap-10-f-10v-20/dp/2466639"
+		(property "Farnell_URI" "https://uk.farnell.com/kemet/edk106m035a9baa/cap-10uf-35v-alu-elec-smd/dp/4144058"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1e678dee-88da-433a-91a2-1f19a04dadf0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "EDK106M035A9BAA"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7584929d-15f3-4ce0-8168-5ba96db49f5c")
 			(effects
 				(font
 					(size 1 1)
@@ -3244,6 +3361,19 @@
 				)
 			)
 		)
+		(property "MPN" "MC0603B104M250CT"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "30129a50-8187-4c48-b7b9-b28ee70fff14")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-000058db1ae2")
 		(sheetname "/")
@@ -3431,7 +3561,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "OPL3 FM Synthesis IC"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3439,6 +3569,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1374c077-c801-44ee-b416-f2ad7f7d5bf9")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3981,6 +4124,19 @@
 				)
 			)
 		)
+		(property "MPN" "MC0603B104M250CT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4a77086d-2064-4844-b83c-3b409f209867")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-000058c9a196")
 		(sheetname "/")
@@ -4155,7 +4311,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.abracon.com/Oscillators/ASV.pdf"
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/SCMP/SCMP-S-A0010069830/SCMP-S-A0010069830-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4167,7 +4323,7 @@
 				)
 			)
 		)
-		(property "Description" "3.3V HCMOS SMD Crystal Clock Oscillator, Abracon"
+		(property "Description" "5v oscillator"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4185,6 +4341,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5c24dfc4-e18c-48ec-8fc8-3544eea93ddf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "MCSJK-6NC1-14.31818-25-B"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6b814161-5aff-4f62-b0b7-ae1b0a3bfa9e")
 			(effects
 				(font
 					(size 1 1)
@@ -4435,7 +4604,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "D/A Converter"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4443,6 +4612,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f6821f58-f5c8-4441-9c0d-249103a19905")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5145,7 +5327,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5163,6 +5345,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5609410e-4835-4fc2-8918-6249ac147e13")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "MCWR06X1002FTL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e72c4499-973f-48e5-9dc9-72918c3dfccd")
 			(effects
 				(font
 					(size 1 1)
@@ -5382,6 +5577,19 @@
 				)
 			)
 		)
+		(property "MPN" "MC0603N272J500CT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1061e57b-25b1-4449-95c1-efb03e039c1d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/14a54509-0144-4bcf-8f04-79c199dcd019")
 		(sheetname "/")
@@ -5569,7 +5777,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5587,6 +5795,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "baf3714a-e755-404c-a3ff-7710f40ccd00")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "MCWR06X1002FTL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6bb7e3fc-2699-4cc9-acfe-d1ab51037c4d")
 			(effects
 				(font
 					(size 1 1)
@@ -5806,6 +6027,19 @@
 				)
 			)
 		)
+		(property "MPN" "MCWR06X1000FTL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f3682202-612a-4587-ad91-b92cd42be658")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/95c4881a-cc15-4c31-92dc-4b4d979d4673")
 		(sheetname "/")
@@ -6011,6 +6245,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1d58c5de-2c4f-40c9-90f5-229709e03e32")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "MCWR06X33R0FTL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f9c82b02-9d4e-45e4-af51-c9c241837af4")
 			(effects
 				(font
 					(size 1 1)
@@ -6230,6 +6477,19 @@
 				)
 			)
 		)
+		(property "MPN" "MCWR06X1000FTL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "49581b34-9f7e-4c20-a386-d58857420600")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a934a69c-eb59-4fe6-8a23-e4e910373981")
 		(sheetname "/")
@@ -6417,7 +6677,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6435,6 +6695,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "695c6abe-9b95-46b5-8db9-cfda73fca55d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "MCWR06X1002FTL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "659f88cd-51ee-4006-9374-ce214fb76503")
 			(effects
 				(font
 					(size 1 1)
@@ -6629,7 +6902,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6647,6 +6920,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4005fd4f-130f-4e80-9fb2-f5ad45858c27")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "MCWR06X1002FTL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5e2f6c65-405e-40d9-83df-e8aed5a300d5")
 			(effects
 				(font
 					(size 1 1)
@@ -6866,6 +7152,19 @@
 				)
 			)
 		)
+		(property "MPN" "MC0603N272J500CT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d9922172-3ecc-4529-96e3-80737a77340a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/ba071aba-29ab-4433-83b1-111d406a3822")
 		(sheetname "/")
@@ -7053,7 +7352,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7071,6 +7370,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d1150fe0-edd3-4869-915c-ac9483470dbd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "MCWR06X1002FTL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e2e34caa-f2cd-4d71-a95a-5a5b0eeed369")
 			(effects
 				(font
 					(size 1 1)
@@ -7283,6 +7595,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "35e3b6fe-42c2-4802-9c9b-813e0d1ad5c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "TL074CDT"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a93ebe8a-9e61-4879-b531-32592cac8e28")
 			(effects
 				(font
 					(size 1 1)
@@ -8032,7 +8357,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/875105240001.pdf"
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_A4001_EDK.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8056,12 +8381,25 @@
 				)
 			)
 		)
-		(property "Farnell_URI" "https://uk.farnell.com/wurth-elektronik/875105240001/cap-10-f-10v-20/dp/2466639"
+		(property "Farnell_URI" "https://uk.farnell.com/kemet/edk106m035a9baa/cap-10uf-35v-alu-elec-smd/dp/4144058"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b43759bd-1a53-4cc3-8169-824af3d03ac1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "EDK106M035A9BAA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "334f9f7b-da4c-45e6-8d7b-56ec301b1776")
 			(effects
 				(font
 					(size 1 1)
@@ -8487,7 +8825,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8505,6 +8843,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d784a0e4-2dd4-43d5-a579-ebb26ff99a69")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "MCWR06X1002FTL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cb6bd9aa-95a8-49be-abcc-56506931d2b0")
 			(effects
 				(font
 					(size 1 1)
@@ -8687,7 +9038,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/A768EB107M1ELAS036"
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_A4001_EDK.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8711,12 +9062,25 @@
 				)
 			)
 		)
-		(property "Farnell_URI" "https://uk.farnell.com/kemet/a768eb107m1elas036/cap-100uf-25v-alu-elec-smd-polymer/dp/4071180"
+		(property "Farnell_URI" "https://uk.farnell.com/kemet/edk107m035a9haa/cap-100-f-35v-radial-smd-reel/dp/2068675"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c9186494-1c02-4181-951a-b5fbe68c62e6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "EDK107M035A9HAA"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "49b2f493-2b19-46b5-8092-a2a0e621a437")
 			(effects
 				(font
 					(size 1 1)
@@ -9130,7 +9494,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/875105240001.pdf"
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_A4001_EDK.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9154,12 +9518,25 @@
 				)
 			)
 		)
-		(property "Farnell_URI" "https://uk.farnell.com/wurth-elektronik/875105240001/cap-10-f-10v-20/dp/2466639"
+		(property "Farnell_URI" "https://uk.farnell.com/kemet/edk106m035a9baa/cap-10uf-35v-alu-elec-smd/dp/4144058"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "92f561ba-a98b-4a7e-a503-4d4edfe780a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "EDK106M035A9BAA"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "75d8db34-cf05-449e-abf4-8e18a07b90eb")
 			(effects
 				(font
 					(size 1 1)
@@ -9573,7 +9950,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/875105240001.pdf"
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_A4001_EDK.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9597,12 +9974,25 @@
 				)
 			)
 		)
-		(property "Farnell_URI" "https://uk.farnell.com/wurth-elektronik/875105240001/cap-10-f-10v-20/dp/2466639"
+		(property "Farnell_URI" "https://uk.farnell.com/kemet/edk106m035a9baa/cap-10uf-35v-alu-elec-smd/dp/4144058"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1536e141-a9ac-43ec-b0d5-5fb51286bd3b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "EDK106M035A9BAA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "15602bd3-e9ad-4c2f-98b3-42befdc30812")
 			(effects
 				(font
 					(size 1 1)
@@ -10053,6 +10443,19 @@
 				)
 			)
 		)
+		(property "MPN" "MC0603B104M250CT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "946be42a-650b-4ca9-b428-6e1ef88111b1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/696006b9-16fe-4927-8082-909fd0874b62")
 		(sheetname "/")
@@ -10265,6 +10668,19 @@
 				)
 			)
 		)
+		(property "MPN" "MCWR06X1002FTL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9631a2d7-18bf-42eb-8a70-a10feb9dcdfa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/09bbe5e7-a3c8-490d-a07e-8d6f2692be90")
 		(sheetname "/")
@@ -10470,6 +10886,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b784d0d5-2bbf-4cd1-9078-8aec522664b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "MCWR06X1002FTL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2f18616b-3a4d-40af-b478-f081996fd946")
 			(effects
 				(font
 					(size 1 1)

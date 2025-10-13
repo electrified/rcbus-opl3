@@ -8104,6 +8104,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "61304011021"
+			(at 26.67 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7b05c7a1-6feb-452a-bf17-555826f543ec")
 		)
@@ -8488,6 +8497,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "MC0603B104M250CT"
+			(at 132.08 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b6b0213a-7a3f-499b-b9b4-dac6c495ac86")
 		)
@@ -8558,6 +8576,15 @@
 			)
 		)
 		(property "Farnell_URI" "https://uk.farnell.com/multicomp-pro/mc0603b104m250ct/cap-0-1-f-25v-20-x7r-0603/dp/2627428"
+			(at 113.03 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MC0603B104M250CT"
 			(at 113.03 110.49 0)
 			(effects
 				(font
@@ -8772,6 +8799,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "M20-9980346"
+			(at 81.28 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "334e81f4-b416-4114-8518-f4971bf6eaca")
 		)
@@ -8872,6 +8908,15 @@
 			)
 		)
 		(property "Farnell_URI" "https://uk.farnell.com/multicomp-pro/mc0603b104m250ct/cap-0-1-f-25v-20-x7r-0603/dp/2627428"
+			(at 205.74 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MC0603B104M250CT"
 			(at 205.74 100.33 0)
 			(effects
 				(font
@@ -9088,6 +9133,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "EDK107M035A9HAA"
+			(at 50.8 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f89118fd-f241-4a6f-89fa-e6cddeba4b83")
 		)
@@ -9287,6 +9341,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 20.32 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/9a2d648d-863a-4b7b-80f9-d537185c212b"
@@ -9351,6 +9414,15 @@
 			)
 		)
 		(property "Farnell_URI" "https://uk.farnell.com/cliff-electronic-components/fc68131/stereo-jack-3-5mm-3pos-pcb/dp/2518188"
+			(at 237.49 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FC68131"
 			(at 237.49 149.86 0)
 			(effects
 				(font
@@ -9438,6 +9510,15 @@
 			)
 		)
 		(property "Farnell_URI" "https://uk.farnell.com/texas-instruments/cd74hct688m96/comparator-magnitude-8bit-soic/dp/3006842"
+			(at 139.7 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CD74HCT688M96"
 			(at 139.7 59.69 0)
 			(effects
 				(font
@@ -10033,6 +10114,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "MC0603B104M250CT"
+			(at 200.66 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d98c9274-407f-4d3c-b5bc-25a8ab2d7954")
 		)
@@ -10111,6 +10201,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "EDK106M035A9BAA"
+			(at 233.68 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d098b747-8b8a-41a0-a871-00168662cb86")
 		)
@@ -10179,6 +10278,15 @@
 			)
 		)
 		(property "Farnell_URI" "https://uk.farnell.com/kemet/edk106m035a9baa/cap-10uf-35v-alu-elec-smd/dp/4144058"
+			(at 199.39 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "EDK106M035A9BAA"
 			(at 199.39 134.62 90)
 			(effects
 				(font
@@ -10328,6 +10436,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "MCWR06X1002FTL"
+			(at 218.44 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1d1c7527-9d28-45ce-b332-6ab02ded10dd")
 		)
@@ -10398,6 +10515,15 @@
 			)
 		)
 		(property "Farnell_URI" "https://uk.farnell.com/multicomp-pro/mc0603n272j500ct/cap-mlcc-2700pf-c0g-np0-50v-0603/dp/4540299"
+			(at 237.49 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MC0603N272J500CT"
 			(at 237.49 111.76 0)
 			(effects
 				(font
@@ -10549,6 +10675,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "MCWR06X1002FTL"
+			(at 97.79 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "68fafc74-74f9-43d0-9b5a-15f3fba09ed5")
 		)
@@ -10617,6 +10752,15 @@
 			)
 		)
 		(property "Farnell_URI" "https://uk.farnell.com/stmicroelectronics/tl074cdt/opamp-3mhz-0-to-70deg-c/dp/3367323"
+			(at 262.89 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TL074CDT"
 			(at 262.89 85.09 0)
 			(effects
 				(font
@@ -10796,6 +10940,15 @@
 			)
 		)
 		(property "Farnell_URI" "https://uk.farnell.com/multicomp-pro/mcwr06x1002ftl/res-10k-1-0-1w-0603-thick-film/dp/2447230"
+			(at 113.03 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MCWR06X1002FTL"
 			(at 113.03 78.74 0)
 			(effects
 				(font
@@ -11012,6 +11165,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "MCWR06X1002FTL"
+			(at 87.63 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7862430b-d523-4eec-a8c2-f437e32314e7")
 		)
@@ -11081,6 +11243,15 @@
 			)
 		)
 		(property "Farnell_URI" "https://uk.farnell.com/stmicroelectronics/tl074cdt/opamp-3mhz-0-to-70deg-c/dp/3367323"
+			(at 262.89 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TL074CDT"
 			(at 262.89 60.96 0)
 			(effects
 				(font
@@ -11203,6 +11374,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "MCWR06X1002FTL"
+			(at 107.95 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "68fafc74-74f9-43d0-9b5a-15f3fba09ed7")
 		)
@@ -11271,6 +11451,15 @@
 			)
 		)
 		(property "Farnell_URI" "https://uk.farnell.com/kemet/edk106m035a9baa/cap-10uf-35v-alu-elec-smd/dp/4144058"
+			(at 58.42 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "EDK106M035A9BAA"
 			(at 58.42 73.66 0)
 			(effects
 				(font
@@ -11349,6 +11538,15 @@
 			)
 		)
 		(property "Farnell_URI" "https://uk.farnell.com/multicomp-pro/mcwr06x1002ftl/res-10k-1-0-1w-0603-thick-film/dp/2447230"
+			(at 92.71 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MCWR06X1002FTL"
 			(at 92.71 78.74 0)
 			(effects
 				(font
@@ -11563,6 +11761,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "MCWR06X1002FTL"
+			(at 218.44 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b1868617-f849-42a7-8429-d557aa036f5a")
 		)
@@ -11613,7 +11820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.abracon.com/Oscillators/ASV.pdf"
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/SCMP/SCMP-S-A0010069830/SCMP-S-A0010069830-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
 			(at 80.01 167.64 0)
 			(effects
 				(font
@@ -11632,6 +11839,15 @@
 			)
 		)
 		(property "Farnell_URI" "https://uk.farnell.com/multicomp-pro/mcsjk-6nc1-14-31818-25-b/oscillator-14-31818mhz-7mm-x-5mm/dp/2854363"
+			(at 82.55 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MCSJK-6NC1-14.31818-25-B"
 			(at 82.55 167.64 0)
 			(effects
 				(font
@@ -11709,6 +11925,15 @@
 		)
 		(property "Description" "D/A Converter"
 			(at 195.58 78.486 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 195.58 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11836,6 +12061,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "MC0603B104M250CT"
+			(at 87.63 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a999310a-7eed-454d-a026-a0d4c9569881")
 		)
@@ -11904,6 +12138,15 @@
 			)
 		)
 		(property "Farnell_URI" "https://uk.farnell.com/multicomp-pro/mcwr06x33r0ftl/res-33r-1-0-1w-thick-film/dp/2447344"
+			(at 245.11 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MCWR06X33R0FTL"
 			(at 245.11 72.39 90)
 			(effects
 				(font
@@ -12040,6 +12283,15 @@
 		)
 		(property "Description" "OPL3 FM Synthesis IC"
 			(at 119.38 162.306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 119.38 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12319,6 +12571,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "MCWR06X1000FTL"
+			(at 209.55 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ae97a98d-5727-460d-9497-1c6a02f160fc")
 		)
@@ -12526,6 +12787,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "MCWR06X1000FTL"
+			(at 209.55 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "99959370-88bb-45df-bf14-01c94f921d5d")
 		)
@@ -12604,6 +12874,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "MC0603N680J500CT"
+			(at 243.84 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "98487ce2-6592-4260-9ce1-313161071ae9")
 		)
@@ -12674,6 +12953,15 @@
 			)
 		)
 		(property "Farnell_URI" "https://uk.farnell.com/multicomp-pro/mc0603n272j500ct/cap-mlcc-2700pf-c0g-np0-50v-0603/dp/4540299"
+			(at 237.49 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MC0603N272J500CT"
 			(at 237.49 85.09 0)
 			(effects
 				(font
@@ -12816,6 +13104,15 @@
 			)
 		)
 		(property "Farnell_URI" "https://uk.farnell.com/stmicroelectronics/tl074cdt/opamp-3mhz-0-to-70deg-c/dp/3367323"
+			(at 262.89 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TL074CDT"
 			(at 262.89 111.76 0)
 			(effects
 				(font
@@ -13001,6 +13298,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "EDK106M035A9BAA"
+			(at 199.39 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6239141d-d811-44ff-853a-a634605eaa5c")
 		)
@@ -13135,6 +13441,15 @@
 			)
 		)
 		(property "Farnell_URI" "https://uk.farnell.com/stmicroelectronics/tl074cdt/opamp-3mhz-0-to-70deg-c/dp/3367323"
+			(at 262.89 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TL074CDT"
 			(at 262.89 31.75 0)
 			(effects
 				(font
@@ -13388,6 +13703,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "TL074CDT"
+			(at 198.12 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "15584030-4e82-476b-869c-0042657ac7c0")
 		)
@@ -13494,6 +13818,15 @@
 			)
 		)
 		(property "Farnell_URI" "https://uk.farnell.com/multicomp-pro/mcwr06x1002ftl/res-10k-1-0-1w-0603-thick-film/dp/2447230"
+			(at 102.87 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MCWR06X1002FTL"
 			(at 102.87 78.74 0)
 			(effects
 				(font
