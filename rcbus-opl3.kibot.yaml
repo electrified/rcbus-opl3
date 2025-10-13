@@ -85,18 +85,6 @@ outputs:
     format: CSV
     group_fields: *id001
     count_smd_tht: true
-- name: kicad_internal_bom
-  type: bom
-  dir: BoM/KiCad
-  comment: BoM using KiCad settings
-  options:
-    format: KICAD
-    ignore_dnf: false
-    group_not_fitted: true
-    group_fields: []
-    sort_style: kicad_bom
-    columns:
-    - _kicad_bom_fields
 - name: basic_download_datasheets
   comment: Download the datasheets
   type: download_datasheets
