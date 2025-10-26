@@ -11905,7 +11905,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOP-16_4.55x10.3mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-16W_5.3x10.2mm_P1.27mm"
 			(at 195.326 97.282 0)
 			(effects
 				(font
