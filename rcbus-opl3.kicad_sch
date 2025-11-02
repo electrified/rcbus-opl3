@@ -4923,12 +4923,6 @@
 		(uuid "44eef101-160e-46e1-a884-677a02bb5a10")
 	)
 	(junction
-		(at 255.27 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4666245a-d3dc-4d5d-9f16-7aa9f3a46d38")
-	)
-	(junction
 		(at 87.63 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5089,6 +5083,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f23e4028-655e-476d-9d39-ad6c7ce44809")
+	)
+	(junction
+		(at 251.46 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5eb2514-e940-422d-ac19-534f8cff5426")
 	)
 	(junction
 		(at 232.41 149.86)
@@ -5282,16 +5282,6 @@
 		)
 		(uuid "082d47ab-a453-4877-b1bd-652d50b1156a")
 	)
-	(wire
-		(pts
-			(xy 255.27 43.18) (xy 255.27 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a42621f-9e9b-49bf-9d5d-dba3a1fa54e4")
-	)
 	(polyline
 		(pts
 			(xy 62.23 99.06) (xy 62.23 186.69)
@@ -5311,6 +5301,16 @@
 			(type default)
 		)
 		(uuid "0e6632c0-988a-4e73-93d8-37a9283c3b36")
+	)
+	(wire
+		(pts
+			(xy 251.46 34.29) (xy 255.27 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "100a055f-e767-4715-a212-85c9bf36307b")
 	)
 	(wire
 		(pts
@@ -5634,7 +5634,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 123.19) (xy 248.92 114.3)
+			(xy 251.46 123.19) (xy 251.46 114.3)
 		)
 		(stroke
 			(width 0)
@@ -5764,7 +5764,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 96.52) (xy 273.05 96.52)
+			(xy 251.46 96.52) (xy 273.05 96.52)
 		)
 		(stroke
 			(width 0)
@@ -5864,7 +5864,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 43.18) (xy 255.27 43.18)
+			(xy 207.01 43.18) (xy 251.46 43.18)
 		)
 		(stroke
 			(width 0)
@@ -6304,7 +6304,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 123.19) (xy 273.05 123.19)
+			(xy 251.46 123.19) (xy 273.05 123.19)
 		)
 		(stroke
 			(width 0)
@@ -6424,7 +6424,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 31.75) (xy 273.05 45.72)
+			(xy 273.05 31.75) (xy 273.05 43.18)
 		)
 		(stroke
 			(width 0)
@@ -6514,7 +6514,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 87.63) (xy 255.27 87.63)
+			(xy 251.46 87.63) (xy 255.27 87.63)
 		)
 		(stroke
 			(width 0)
@@ -6584,7 +6584,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 34.29) (xy 255.27 43.18)
+			(xy 251.46 34.29) (xy 251.46 43.18)
 		)
 		(stroke
 			(width 0)
@@ -7084,7 +7084,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 45.72) (xy 255.27 45.72)
+			(xy 273.05 43.18) (xy 251.46 43.18)
 		)
 		(stroke
 			(width 0)
@@ -7164,7 +7164,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 96.52) (xy 248.92 87.63)
+			(xy 251.46 96.52) (xy 251.46 87.63)
 		)
 		(stroke
 			(width 0)
@@ -7384,7 +7384,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 114.3) (xy 255.27 114.3)
+			(xy 251.46 114.3) (xy 255.27 114.3)
 		)
 		(stroke
 			(width 0)
@@ -10165,7 +10165,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.8"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.4"
 			(at 233.68 33.02 0)
 			(effects
 				(font
@@ -10250,7 +10250,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.8"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.4"
 			(at 199.39 134.62 0)
 			(effects
 				(font
@@ -11423,7 +11423,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.8"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.4"
 			(at 58.42 73.66 0)
 			(effects
 				(font
@@ -12263,7 +12263,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOP-24_7.5x15.4mm_P1.27mm"
+		(property "Footprint" "electrified:SOP-24_wider"
 			(at 119.126 181.102 0)
 			(effects
 				(font
@@ -13262,7 +13262,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.8"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.4"
 			(at 199.39 149.86 0)
 			(effects
 				(font
