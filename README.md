@@ -17,11 +17,11 @@ The base address the card is available at is configured with JP1 - the default s
 A lightly altered version of Marco Maccaferri and J.B. Langston's CP/M VGMPLAY is available [here](https://github.com/electrified/vgmplay). This allows playback of VGM files containing OPL2 and OPL3 content.
 
 ### Sources of OPL2/OPL3 VGM music
-[OPL Archive](https://opl.wafflenet.com/#AmigaX)
-OPL3 Archive zip [from this page](https://roudoudou.com/ACE-DL/) - files are names in 8.3 format
-[VGMRips OPL2](https://vgmrips.net/packs/chip/ym3812)
-[VGMRips OPL3](https://vgmrips.net/packs/chip/ymf262)
-[VGMRips full download packs](https://vgmrips.net/forum/viewtopic.php?t=496)
+[OPL Archive](https://opl.wafflenet.com/#AmigaX)  
+OPL3 Archive zip [from this page](https://roudoudou.com/ACE-DL/) - files are names in 8.3 format  
+[VGMRips OPL2](https://vgmrips.net/packs/chip/ym3812)  
+[VGMRips OPL3](https://vgmrips.net/packs/chip/ymf262)  
+[VGMRips full download packs](https://vgmrips.net/forum/viewtopic.php?t=496)  
 
 ## Known issues with rev 1
 * YMF footprint too narrow
