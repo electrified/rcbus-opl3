@@ -8077,7 +8077,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61304011021.pdf"
+		(property "Datasheet" "~"
 			(at 26.67 69.85 0)
 			(effects
 				(font
@@ -8086,7 +8086,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x39"
+		(property "Description" "Generic connector, single row, 01x39, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 26.67 69.85 0)
 			(effects
 				(font
@@ -8470,7 +8470,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/SCMP/SCMP-S-A0009426256/SCMP-S-A0009474646-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
+		(property "Datasheet" "~"
 			(at 132.08 25.4 0)
 			(effects
 				(font
@@ -8557,7 +8557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/SCMP/SCMP-S-A0009426256/SCMP-S-A0009474646-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
+		(property "Datasheet" "~"
 			(at 113.03 110.49 0)
 			(effects
 				(font
@@ -8772,7 +8772,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/HRWN/HRWN-S-A0001370718/HRWN-S-A0009370459-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
+		(property "Datasheet" "~"
 			(at 81.28 67.31 0)
 			(effects
 				(font
@@ -8781,7 +8781,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x06"
+		(property "Description" "Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 81.28 67.31 0)
 			(effects
 				(font
@@ -8889,7 +8889,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/SCMP/SCMP-S-A0009426256/SCMP-S-A0009474646-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
+		(property "Datasheet" "~"
 			(at 205.74 100.33 0)
 			(effects
 				(font
@@ -9106,7 +9106,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_A4001_EDK.pdf"
+		(property "Datasheet" "~"
 			(at 50.8 73.66 0)
 			(effects
 				(font
@@ -9395,7 +9395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/2028381.pdf"
+		(property "Datasheet" "~"
 			(at 237.49 149.86 0)
 			(effects
 				(font
@@ -10087,7 +10087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/SCMP/SCMP-S-A0009426256/SCMP-S-A0009474646-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
+		(property "Datasheet" "~"
 			(at 200.66 26.67 0)
 			(effects
 				(font
@@ -10174,7 +10174,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_A4001_EDK.pdf"
+		(property "Datasheet" "~"
 			(at 233.68 33.02 0)
 			(effects
 				(font
@@ -10259,7 +10259,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_A4001_EDK.pdf"
+		(property "Datasheet" "~"
 			(at 199.39 134.62 0)
 			(effects
 				(font
@@ -10409,7 +10409,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/SCMP/SCMP-S-A0009547702/SCMP-S-A0009547702-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
+		(property "Datasheet" "~"
 			(at 218.44 138.43 0)
 			(effects
 				(font
@@ -10496,7 +10496,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/4417444.pdf"
+		(property "Datasheet" "~"
 			(at 237.49 111.76 0)
 			(effects
 				(font
@@ -10648,7 +10648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/SCMP/SCMP-S-A0009547702/SCMP-S-A0009547702-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
+		(property "Datasheet" "~"
 			(at 97.79 78.74 0)
 			(effects
 				(font
@@ -10657,7 +10657,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, small symbol"
 			(at 97.79 78.74 0)
 			(effects
 				(font
@@ -10921,7 +10921,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/SCMP/SCMP-S-A0009547702/SCMP-S-A0009547702-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
+		(property "Datasheet" "~"
 			(at 113.03 78.74 0)
 			(effects
 				(font
@@ -10930,7 +10930,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, small symbol"
 			(at 113.03 78.74 0)
 			(effects
 				(font
@@ -11138,7 +11138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/SCMP/SCMP-S-A0009547702/SCMP-S-A0009547702-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
+		(property "Datasheet" "~"
 			(at 87.63 78.74 0)
 			(effects
 				(font
@@ -11147,7 +11147,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, small symbol"
 			(at 87.63 78.74 0)
 			(effects
 				(font
@@ -11347,7 +11347,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/SCMP/SCMP-S-A0009547702/SCMP-S-A0009547702-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
+		(property "Datasheet" "~"
 			(at 107.95 78.74 0)
 			(effects
 				(font
@@ -11356,7 +11356,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, small symbol"
 			(at 107.95 78.74 0)
 			(effects
 				(font
@@ -11432,7 +11432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_A4001_EDK.pdf"
+		(property "Datasheet" "~"
 			(at 58.42 73.66 0)
 			(effects
 				(font
@@ -11519,7 +11519,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/SCMP/SCMP-S-A0009547702/SCMP-S-A0009547702-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
+		(property "Datasheet" "~"
 			(at 92.71 78.74 0)
 			(effects
 				(font
@@ -11528,7 +11528,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, small symbol"
 			(at 92.71 78.74 0)
 			(effects
 				(font
@@ -11734,7 +11734,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/SCMP/SCMP-S-A0009547702/SCMP-S-A0009547702-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
+		(property "Datasheet" "~"
 			(at 218.44 153.67 0)
 			(effects
 				(font
@@ -11820,7 +11820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/SCMP/SCMP-S-A0010069830/SCMP-S-A0010069830-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
+		(property "Datasheet" "http://www.abracon.com/Oscillators/ASV.pdf"
 			(at 80.01 167.64 0)
 			(effects
 				(font
@@ -11829,7 +11829,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5v oscillator"
+		(property "Description" "3.3V HCMOS SMD Crystal Clock Oscillator, Abracon"
 			(at 82.55 167.64 0)
 			(effects
 				(font
@@ -11905,7 +11905,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-16W_5.3x10.2mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOP-16_4.55x10.3mm_P1.27mm"
 			(at 195.326 97.282 0)
 			(effects
 				(font
@@ -12034,7 +12034,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/SCMP/SCMP-S-A0009426256/SCMP-S-A0009474646-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
+		(property "Datasheet" "~"
 			(at 87.63 153.67 0)
 			(effects
 				(font
@@ -12119,7 +12119,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/SCMP/SCMP-S-A0009547702/SCMP-S-A0009547702-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
+		(property "Datasheet" "~"
 			(at 245.11 72.39 0)
 			(effects
 				(font
@@ -12544,7 +12544,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/SCMP/SCMP-S-A0009547702/SCMP-S-A0009547702-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
+		(property "Datasheet" "~"
 			(at 209.55 134.62 0)
 			(effects
 				(font
@@ -12760,7 +12760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/SCMP/SCMP-S-A0009547702/SCMP-S-A0009547702-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
+		(property "Datasheet" "~"
 			(at 209.55 149.86 0)
 			(effects
 				(font
@@ -12847,7 +12847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/4417444.pdf"
+		(property "Datasheet" "~"
 			(at 243.84 60.96 0)
 			(effects
 				(font
@@ -12934,7 +12934,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/4417444.pdf"
+		(property "Datasheet" "~"
 			(at 237.49 85.09 0)
 			(effects
 				(font
@@ -13271,7 +13271,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_A4001_EDK.pdf"
+		(property "Datasheet" "~"
 			(at 199.39 149.86 0)
 			(effects
 				(font
@@ -13799,7 +13799,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/SCMP/SCMP-S-A0009547702/SCMP-S-A0009547702-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
+		(property "Datasheet" "~"
 			(at 102.87 78.74 0)
 			(effects
 				(font
@@ -13808,7 +13808,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, small symbol"
 			(at 102.87 78.74 0)
 			(effects
 				(font
