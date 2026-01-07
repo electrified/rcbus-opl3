@@ -23,7 +23,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v5
+    - uses: actions/checkout@v6
       with:
         # So we can run a diff between last 2 changes
         fetch-depth: '0'
@@ -50,7 +50,7 @@ jobs:
         files: |
           Generated/**
     - name: Retrieve results
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v5
       with:
         name: Automatic_outputs
         path: Generated
@@ -61,10 +61,10 @@ jobs:
     needs: build
 
     steps:
-    - uses: actions/checkout@v5
+    - uses: actions/checkout@v6
 
     - name: Retrieve results
-      uses: actions/download-artifact@v5
+      uses: actions/download-artifact@v6
       with:
         name: Automatic_outputs
         path: Generated
