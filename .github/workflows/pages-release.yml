@@ -1,0 +1,40 @@
+name: "Publish site on release"
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Generate site (KiBot)
+        uses: INTI-CMNB/KiBot@v2_k9
+        with:
+          dir: Generated
+
+      - name: Disable Jekyll
+        run: |
+          touch Generated/.nojekyll
+
+      - name: Upload Generated to release
+        if: ${{ github.event_name == 'release' }}
+        uses: softprops/action-gh-release@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.event.release.tag_name }}
+          files: |
+            Generated/**
+
+      - name: Deploy Generated to electrified/rcbus-opl3-site
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: main
+          folder: Generated
+          repository-name: electrified/rcbus-opl3-site
+          token: ${{ secrets.GITHUB_TOKEN }}
