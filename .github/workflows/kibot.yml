@@ -1,22 +1,8 @@
-name: "RCBus YMF-262 build"
+name: "RCBus OPL3 build"
 
 # Controls when the action will run. Triggers the workflow on push or pull request
-# events but only for the master branch
+# events for KiCad files and KiBot config
 on:
-  push:
-    paths:
-      - '*.kicad_sch'
-      - '*.kicad_pcb'
-      - '*.kibot.yaml'
-      - '.github/workflows/kibot.yml'
-  pull_request:
-    paths:
-      - '*.kicad_sch'
-      - '*.kicad_pcb'
-      - '*.kibot.yaml'
-      - '.github/workflows/kibot.yml'
-  repository_dispatch:
-    types: [run_qs]
   workflow_dispatch:
 
 jobs:
@@ -41,14 +27,19 @@ jobs:
       uses: INTI-CMNB/KiBot@v2_k9
       with:
         dir: Generated
-    - name: Upload release files
+    - name: Archive Generated for release
+      run: |
+        if ! command -v zip >/dev/null; then sudo apt-get update && sudo apt-get install -y zip; fi
+        zip -r "rcbus-opl3-${{ env.VERSION }}.zip" Generated
+    - name: Release version
       uses: softprops/action-gh-release@v2
-      if: github.ref_type == 'tag'
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      if: ${{ github.ref_name == github.event.repository.default_branch }}
       with:
+        draft: false
+        prerelease: false
+        tag_name: "${{ env.VERSION }}"
         files: |
-          Generated/**
+          "rcbus-opl3-${{ env.VERSION }}.zip"
     - name: Retrieve results
       uses: actions/upload-artifact@v5
       with:
