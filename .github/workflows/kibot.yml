@@ -50,7 +50,7 @@ jobs:
         files: |
           Generated/**
     - name: Retrieve results
-      uses: actions/upload-artifact@v5
+      uses: actions/upload-artifact@v6
       with:
         name: Automatic_outputs
         path: Generated
