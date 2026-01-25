@@ -41,7 +41,7 @@ jobs:
         files: |
           "rcbus-opl3-${{ env.VERSION }}.zip"
     - name: Retrieve results
-      uses: actions/upload-artifact@v5
+      uses: actions/upload-artifact@v6
       with:
         name: Automatic_outputs
         path: Generated
@@ -55,7 +55,7 @@ jobs:
     - uses: actions/checkout@v6
 
     - name: Retrieve results
-      uses: actions/download-artifact@v6
+      uses: actions/download-artifact@v7
       with:
         name: Automatic_outputs
         path: Generated
